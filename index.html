@@ -122,6 +122,7 @@
 
         thead {
             background: var(--gradient);
+            position: relative;
         }
 
         th {
@@ -130,6 +131,7 @@
             color: var(--white);
             font-weight: 600;
             font-size: 1.1rem;
+            transition: none;
         }
 
         td {
@@ -146,6 +148,11 @@
             transform: translateY(-2px);
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        tr:hover th {
+            color: var(--white) !important;
+            background: transparent !important;
         }
 
         .plugin-link {
@@ -449,7 +456,7 @@
 
         <!-- CTA Section -->
         <section class="cta-section">
-            <h2 style="margin-bottom: 20px;">Начните использовать наши плагины!</h2>
+            <h2 style="margin-bottom: 20px;">Начните использовать эти плагины!</h2>
             <p style="font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9;">Присоединяйтесь к сообществу довольных владельцев серверов</p>
             <div class="cta-buttons">
                 <a href="https://t.me/aleks_basher" class="btn btn-telegram">
