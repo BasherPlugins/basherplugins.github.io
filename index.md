@@ -8,16 +8,16 @@
 
 | Плагин | Категория | Описание | Статус |
 |--------|-----------|-----------|---------|
-| **[BasherBuyer](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherBuyer/index.md)** 🛍️ | FunTime | Умная система скупки предметов | ✅ Готов |
-| **[BasherCases](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherCases/index.md)** 🎁 | FunTime | Система кейсов с настройкой | ✅ Готов |
-| **[BasherClans](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherClans/index.md)** 🏰 | FunTime & Custom | Полноценная клановая система | ✅ Готов |
-| **[BasherDuels](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherDuels/index.md)** ⚔️ | FunTime | Система дуэлей между игроками | ✅ Готов |
-| **[BasherConfirmator](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherConfirmator/index.md)** ✅ | Custom | Система подтверждения покупок | ✅ Готов |
-| **[BasherEnchants](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherEnchants/index.md)** ✨ | FunTime | Кастомные зачарования | ✅ Готов |
-| **[BasherStackSizes](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherStackSizes/index.md)** 📦 | Custom | Настройка размеров стаков | ✅ Готов |
-| **[BasherDesign](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherDesign/index.md)** 🎨 | FunTime | Система оформления | ✅ Готов |
-| **[BasherEvents](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherEvents/index.md)** 🎪 | FunTime | Система ивентов | ✅ Готов |
-| **[BasherItems](https://github.com/BasherPlugins/basherplugins.github.io/main/BasherItems/index.md)** 🔮 | FunTime | Кастомные предметы | ✅ Готов |
+| **[BasherBuyer](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherBuyer/index.md)** 🛍️ | FunTime | Умная система скупки предметов | ✅ Готов |
+| **[BasherCases](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherCases/index.md)** 🎁 | FunTime | Система кейсов с настройкой | ✅ Готов |
+| **[BasherClans](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherClans/index.md)** 🏰 | FunTime & Custom | Полноценная клановая система | ✅ Готов |
+| **[BasherDuels](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherDuels/index.md)** ⚔️ | FunTime | Система дуэлей между игроками | ✅ Готов |
+| **[BasherConfirmator](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherConfirmator/index.md)** ✅ | Custom | Система подтверждения покупок | ✅ Готов |
+| **[BasherEnchants](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherEnchants/index.md)** ✨ | FunTime | Кастомные зачарования | ✅ Готов |
+| **[BasherStackSizes](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherStackSizes/index.md)** 📦 | Custom | Настройка размеров стаков | ✅ Готов |
+| **[BasherDesign](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherDesign/index.md)** 🎨 | FunTime | Система оформления | ✅ Готов |
+| **[BasherEvents](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherEvents/index.md)** 🎪 | FunTime | Система ивентов | ✅ Готов |
+| **[BasherItems](https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherItems/index.md)** 🔮 | FunTime | Кастомные предметы | ✅ Готов |
 
 ---
 
@@ -31,13 +31,12 @@
 
 ---
 
-## 📥 Быстрый доступ
-
 <div align="center">
 
-### 💰 Покупка плагинов
+## 💰 Покупка плагинов
 [![Telegram](https://img.shields.io/badge/📱_Telegram-Написать_для_покупки-26A5E4?style=for-the-badge)](https://t.me/aleks_basher)
-### 🎯 Основной репозиторий
+
+## 🎯 Основной репозиторий
 [![GitHub Repo](https://img.shields.io/badge/📂_Основной_репозиторий-ТЫК_СЮДА-8A2BE2?style=for-the-badge)](https://github.com/BasherPlugins)
 
 </div>
@@ -69,7 +68,7 @@
 
 <div align="center">
 
-### **Сделано с ❤️ для сообщества Minecraft**
+## **Сделано с ❤️ для сообщества Minecraft**
 
 *Разработчик: Aleks_Basher*
 
