@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Плагины от Aleks_Basher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8A2BE2;
+            --primary-dark: #4B0082;
+            --secondary: #26A5E4;
+            --accent: #FF6B6B;
+            --text: #2D3748;
+            --text-light: #718096;
+            --background: #F7FAFC;
+            --white: #FFFFFF;
+            --gradient: linear-gradient(135deg, var(--primary), var(--primary-dark));
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .hero {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.1"><polygon points="1000,100 1000,0 0,100"/></svg>');
+            background-size: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--gradient);
+            border-radius: 2px;
+        }
+
+        /* Table Styles */
+        .plugins-table {
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: var(--gradient);
+        }
+
+        th {
+            padding: 20px;
+            text-align: left;
+            color: var(--white);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        td {
+            padding: 20px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background: #F8F9FA;
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .plugin-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .plugin-link:hover {
+            color: var(--primary-dark);
+        }
+
+        .status-ready {
+            color: #48BB78;
+            font-weight: 600;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: var(--gradient);
+            color: var(--white);
+            text-align: center;
+            padding: 80px 0;
+            border-radius: 20px;
+            margin: 60px 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-telegram {
+            background: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-github {
+            background: var(--white);
+            color: var(--primary-dark);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Support & License */
+        .info-section {
+            background: var(--white);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin: 40px 0;
+        }
+
+        .info-section h3 {
+            color: var(--primary);
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+        }
+
+        .license-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .license-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .license-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-heart {
+            color: var(--accent);
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            th, td {
+                padding: 15px 10px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>🚀 Плагины от Aleks_Basher</h1>
+                <p>Добро пожаловать в официальный репозиторий плагинов для Minecraft серверов! Здесь вы найдете качественные, оптимизированные решения для вашего проекта.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Plugins Section -->
+        <section id="plugins">
+            <div class="section-header">
+                <h2>📦 Актуальный список плагинов</h2>
+            </div>
+            <div class="plugins-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Плагин</th>
+                            <th>Категория</th>
+                            <th>Описание</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherBuyer/index.md" class="plugin-link">BasherBuyer 🛍️</a></td>
+                            <td>FunTime</td>
+                            <td>Умная система скупки предметов</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherCases/index.md" class="plugin-link">BasherCases 🎁</a></td>
+                            <td>FunTime</td>
+                            <td>Система кейсов с настройкой</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherClans/index.md" class="plugin-link">BasherClans 🏰</a></td>
+                            <td>FunTime & Custom</td>
+                            <td>Полноценная клановая система</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherDuels/index.md" class="plugin-link">BasherDuels ⚔️</a></td>
+                            <td>FunTime</td>
+                            <td>Система дуэлей между игроками</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherConfirmator/index.md" class="plugin-link">BasherConfirmator ✅</a></td>
+                            <td>Custom</td>
+                            <td>Система подтверждения покупок</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherEnchants/index.md" class="plugin-link">BasherEnchants ✨</a></td>
+                            <td>FunTime</td>
+                            <td>Кастомные зачарования</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherStackSizes/index.md" class="plugin-link">BasherStackSizes 📦</a></td>
+                            <td>Custom</td>
+                            <td>Настройка размеров стаков</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherDesign/index.md" class="plugin-link">BasherDesign 🎨</a></td>
+                            <td>FunTime</td>
+                            <td>Система оформления</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherEvents/index.md" class="plugin-link">BasherEvents 🎪</a></td>
+                            <td>FunTime</td>
+                            <td>Система ивентов</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BasherPlugins/basherplugins.github.io/blob/main/BasherItems/index.md" class="plugin-link">BasherItems 🔮</a></td>
+                            <td>FunTime</td>
+                            <td>Кастомные предметы</td>
+                            <td class="status-ready">✅ Готов</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <div class="section-header">
+                <h2>🌟 Особенности моих плагинов</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Высокая производительность</h3>
+                    <p>Оптимизированный код для максимальной эффективности</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Гибкая настройка</h3>
+                    <p>Конфиги под любые нужды вашего сервера</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Подробная документация</h3>
+                    <p>Легко разобраться с настройками</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🐛</div>
+                    <h3>Постоянная поддержка</h3>
+                    <p>Быстрое исправление багов и помощь</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Регулярные обновления</h3>
+                    <p>Совместимость с разными версиями Minecraft</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2 style="margin-bottom: 20px;">Начните использовать наши плагины!</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9;">Присоединяйтесь к сообществу довольных владельцев серверов</p>
+            <div class="cta-buttons">
+                <a href="https://t.me/aleks_basher" class="btn btn-telegram">
+                    <i class="fab fa-telegram"></i>
+                    💰 Написать для покупки
+                </a>
+                <a href="https://github.com/BasherPlugins" class="btn btn-github">
+                    <i class="fab fa-github"></i>
+                    🎯 Основной репозиторий
+                </a>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <div class="info-section">
+            <h3>🛠️ Поддержка</h3>
+            <p>Если у вас возникли вопросы или проблемы с плагинами:</p>
+            <ol style="margin-left: 20px; margin-top: 15px;">
+                <li>Пересоздайте конфиги, возможно что-то повредилось</li>
+                <li>Посмотрите исходные настройки и описания к ним</li>
+                <li>Пишите мне в <a href="https://t.me/aleks_basher" style="color: var(--primary); text-decoration: none; font-weight: 600;">Telegram</a></li>
+            </ol>
+        </div>
+
+        <!-- License Section -->
+        <div class="info-section">
+            <h3>📄 Лицензия</h3>
+            <p>Все плагины являются <strong>проприетарным ПО</strong> и распространяются под закрытой лицензией.</p>
+            <h4 style="margin: 25px 0 15px 0; color: var(--primary-dark);">Условия использования:</h4>
+            <ul class="license-list">
+                <li>🔒 <strong>Приватный исходный код</strong></li>
+                <li>💳 <strong>Требуется приобретение лицензии</strong></li>
+                <li>⚖️ <strong>Запрещено распространение и модификация</strong></li>
+                <li>🛡️ <strong>Защита авторских прав</strong></li>
+            </ul>
+            <p style="margin-top: 20px; font-style: italic;">Для приобретения обращайтесь к разработчику.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3 style="margin-bottom: 15px;">
+                    Сделано с <span class="footer-heart">❤️</span> для сообщества Minecraft
+                </h3>
+                <p style="opacity: 0.8; font-size: 1.1rem;">
+                    <i class="fas fa-code"></i> Разработчик: Aleks_Basher
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation to table rows
+        document.addEventListener('DOMContentLoaded', function() {
+            const tableRows = document.querySelectorAll('tbody tr');
+            tableRows.forEach((row, index) => {
+                row.style.opacity = '0';
+                row.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    row.style.transition = 'all 0.5s ease';
+                    row.style.opacity = '1';
+                    row.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>
