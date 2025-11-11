@@ -1,0 +1,47 @@
+id: 'example_dynamic'
+type: DYNAMIC
+name: '&0Пример динамического скупщика'
+
+slots:
+  - 11
+  - 12
+  - 13
+
+updateDelay: 30 # секунд
+
+items:
+  item1:
+    name: '&6Какао-бобы'
+    material: COCOA_BEANS
+    oldPrice: 80.0
+    priceMultiply: 1.5
+    maxSales: 100
+    freezeTime: 300
+  item2:
+    name: '&6Незерский нарост'
+    material: NETHER_WART
+    oldPrice: 80.0
+    priceMultiply: 1.5
+    maxSales: 100
+    freezeTime: 300
+  item3:
+    name: '&6Плод хоруса'
+    material: CHORUS_FRUIT
+    oldPrice: 80.0
+    priceMultiply: 1.5
+    maxSales: 100
+    freezeTime: 300
+  item4:
+    name: '&6Сахарный тростник'
+    material: SUGAR_CANE
+    oldPrice: 80.0
+    priceMultiply: 1.5
+    maxSales: 100
+    freezeTime: 300
+  item5:
+    name: '&6Кактус'
+    material: CACTUS
+    oldPrice: 80.0
+    priceMultiply: 1.5
+    maxSales: 100
+    freezeTime: 300

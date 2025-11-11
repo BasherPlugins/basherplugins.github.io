@@ -1,0 +1,9 @@
+name: 'BasherBuyer'
+version: '2.0.0'
+main: ru.basher.buyer.BuyerPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ Vault ]
+commands:
+  basherbuyer:

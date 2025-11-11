@@ -1,0 +1,47 @@
+id: 'example_static'
+type: STATIC
+name: '&0Пример статического скупщика'
+
+levels:
+  level1:
+    level: 1
+    maxStacks: 7
+    needStacks: 10
+    multiply: 1.0
+  level2:
+    level: 2
+    maxStacks: 10
+    needStacks: 20
+    multiply: 1.0
+  level3:
+    level: 3
+    maxStacks: 15
+    needStacks: 30
+    multiply: 1.0
+
+items:
+  item1:
+    name: '&6Какао-бобы'
+    material: COCOA_BEANS
+    price: 80.0
+    slot: 11
+  item2:
+    name: '&6Незерский нарост'
+    material: NETHER_WART
+    price: 80.0
+    slot: 12
+  item3:
+    name: '&6Плод хоруса'
+    material: CHORUS_FRUIT
+    price: 300.0
+    slot: 13
+  item4:
+    name: '&6Сахарный тростник'
+    material: SUGAR_CANE
+    price: 100.0
+    slot: 14
+  item5:
+    name: '&6Кактус'
+    material: CACTUS
+    price: 90.0
+    slot: 15

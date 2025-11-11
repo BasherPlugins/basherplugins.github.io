@@ -1,0 +1,29 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+categoryNotFound:
+  - '&cКатегория не была найдена'
+needPlayToSell:
+  - '&cВам нужно отыграть {time}, чтобы продавать'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherBuyer'
+    - '&f/basherbuyer reload'
+    - '&f/basherbuyer open Игрок Категория'
+  reloadSuccess:
+    - '&aКонфиги были перезагружены за {time} мс'
+
+noResources:
+  - '&cНедостаточно ресурсов'
+sellSuccess:
+  - '&aВы продали {name} {amount} шт. за ${price}'
+
+autoSell:
+  enable:
+    - '&aАвто-скупка {name} включена'
+  disable:
+    - '&cАвто-скупка {name} выключена'
+  success:
+    - '&aАвтоматически продалось {name} {amount} шт. за ${price}'

@@ -1,0 +1,61 @@
+##################################################################
+#                         BasherBuyer                            #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherbuyer - админ-команды
+# Права:
+#   basherbuyer.command.basherbuyer - доступ к /basherbuyer
+#
+format:
+  selectorActive: '&r &a>> &7Продать &a{amount}'
+  selectorNotActive: '&r &8>> &7Продать &e{amount}'
+  autosellActive: '&2Включено'
+  autosellNotActive: '&cВыключено'
+
+needPlayTimeToCanSell: 100 # сек
+
+dynamicItem:
+  lore:
+    - '&fПродано: {sold}/{maxSales}'
+    - '&6ЛКМ&f, чтобы продать'
+    - '&fЦена за &e1 шт&f: &7&m{oldPrice}&6{price}$'
+    - '&r '
+    - '&6ПКМ&f, чтобы настроить количество'
+    - '{selector}'
+  freezeLore:
+    - '&fЦена за &e1 шт&f: &7&m{oldPrice}&6{price}$'
+    - '&r '
+    - '&cПродажа предмета заморожена.'
+    - '&cРазморозится через &f{time}'
+
+staticItem:
+  lore:
+    - '&6ЛКМ&f, чтобы продать'
+    - '&fЦена за &e1 шт&f: &6{price}$'
+    - '&r '
+    - '&6СКМ&f, чтобы переключить авто-продажу'
+    - '{autoSell}'
+    - '&r '
+    - '&6ПКМ&f, чтобы настроить количество'
+    - '{selector}'
+    - '&r '
+    - '&fДля прокачки засчитается'
+    - '&fмаксимум &6{maxStacks} стаков &c({percent}%)'
+
+sound:
+  sell:
+    id: 'BLOCK_ANVIL_HIT'
+    volume: 1.0
+    pitch: 1.0
+  noItem:
+    id: 'BLOCK_ANVIL_HIT'
+    volume: 1.0
+    pitch: 1.0
+  selector:
+    id: 'BLOCK_ANVIL_HIT'
+    volume: 1.0
+    pitch: 1.0
