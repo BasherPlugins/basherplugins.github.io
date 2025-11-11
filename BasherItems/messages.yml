@@ -1,0 +1,32 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав для доступа к этой команде'
+playerNotFound:
+  - '&cИгрок не был найден'
+itemNotFound:
+  - '&cПредмет не был найден'
+levelNotFound:
+  - '&cУровень не был найден'
+cooldown:
+  - '&cПредмет будет доступен через {time}'
+disableWorld:
+  - '&cИспользование предмета в этом мире запрещено'
+schemaNotFound:
+  - '&cСхема не была найдена'
+notSelected:
+  - '&cСначала выделите область'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lItems'
+    - '/basheritems reload'
+    - '/basheritems giveUpgradable Ник Название Уровень'
+    - '/basheritems giveCustom Ник Название'
+    - '/basheritems setSchema Название'
+  giveUpgradableSuccess:
+    - '&aВы выдали {itemName} {level} уровня игроку {target}'
+  giveCustomSuccess:
+    - '&aВы выдали {itemName} игроку {target}'
+  reloadSuccess:
+    - '&aКонфиги успешно перезагружены'
+  setSchemaSuccess:
+    - '&aСхема установлена'

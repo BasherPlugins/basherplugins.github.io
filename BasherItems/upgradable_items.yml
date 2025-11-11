@@ -1,0 +1,50 @@
+items:
+  sphereAndromeda: # Идентификатор. Лучше не изменять, чтобы не повредить работу на вайпе
+    1: # Уровень
+      item: # Здесь параметр slot не учитывается
+        name: '&#ff0000[⨳]&#ff6600 Сфера Андромеды'
+        lore:
+          - '&#cc0000 ↪ &#ffff00Уровень:&#cc0000 1'
+        material: 'base64-e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmZmUzZjM1OGYyMDliYWQ4ZmZmNGRjNDgyNDVkOWJhZjBhMDMxYjNjMWVlNmI3NTg0NjBhMzM5YjE1MTllMiJ9fX0='
+        enchants:
+          - 'ARROW_DAMAGE;1'
+        itemFlags:
+          - 'HIDE_ENCHANTS'
+        attributes:
+          - 'GENERIC_ATTACK_DAMAGE;2'
+          - 'GENERIC_MAX_HEALTH;-4'
+          - 'GENERIC_ARMOR;1'
+          - 'GENERIC_MOVEMENT_SPEED;10%'
+      upgradePrice: 1 # Цена опыта в наковальне
+    2:
+      item:
+        name: '&#ff0000[⨳]&#ff6600 Сфера Андромеды'
+        lore:
+          - '&#cc0000 ↪ &#ffff00Уровень:&#cc0000 2'
+        material: PLAYER_HEAD
+        enchants:
+          - 'ARROW_DAMAGE;1'
+        itemFlags:
+          - 'HIDE_ENCHANTS'
+        attributes:
+          - 'GENERIC_ATTACK_DAMAGE;2.5'
+          - 'GENERIC_MAX_HEALTH;-4'
+          - 'GENERIC_ARMOR;1.5'
+          - 'GENERIC_MOVEMENT_SPEED;10%'
+      upgradePrice: 30
+    3:
+      item:
+        name: '&#ff0000[⨳]&#ff6600 Сфера Андромеды'
+        lore:
+          - '&#cc0000 ↪ &#ffff00Уровень:&#cc0000 MAX'
+        material: PLAYER_HEAD
+        enchants:
+          - 'ARROW_DAMAGE;1'
+        itemFlags:
+          - 'HIDE_ENCHANTS'
+        attributes:
+          - 'GENERIC_ATTACK_DAMAGE;3'
+          - 'GENERIC_MAX_HEALTH;-4'
+          - 'GENERIC_ARMOR;2'
+          - 'GENERIC_MOVEMENT_SPEED;15%'
+      upgradePrice: 45

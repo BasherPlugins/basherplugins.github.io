@@ -1,0 +1,9 @@
+name: '&cСтандартный'
+# EMPTY, REGEN, HASTE, WITHER, GLOW, BLINDNESS, CHORUS, DRAGON
+effect: EMPTY
+blocks:
+  0:
+    blockData: 'minecraft:obsidian'
+    x: 0
+    y: -1
+    z: 0

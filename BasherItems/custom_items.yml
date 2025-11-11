@@ -1,0 +1,117 @@
+items:
+  example:
+    item: # Здесь параметр slot не учитывается
+      name: '&b&l[❂] Пример предмета'
+      lore:
+        - '&7Что-то'
+      material: SUGAR
+      amount: 1
+      enchants:
+        - 'ARROW_DAMAGE;1'
+      itemFlags:
+        - 'HIDE_ENCHANTS'
+      attributes:
+        - 'GENERIC_ATTACK_DAMAGE;2'
+        - 'GENERIC_MAX_HEALTH;-4'
+        - 'GENERIC_ARMOR;1'
+        - 'GENERIC_MOVEMENT_SPEED;10%'
+
+    useCooldown: 120 # Задержка на использование предмета. Может быть удалено
+
+    disableWorlds: # Миры, где запрещено использовать предмет. Может быть удалено
+      - 'spawn'
+
+    particles: # Воспроизведение эффекта из частиц. Может быть удалено
+      priority: 1 # Приоритет выполнения
+      type: CIRCLE # Тип эффекта. Может быть CIRCLE
+      particle: FLAME # Значение частицы
+      power: 0.2 # Сила эффекта. Может быть скоростью и радиусом
+
+    clearPotionEffects: # Удаляет эффекты от зелий у игрока. Может быть удалено
+      priority: 2
+
+    potionEffects: # Выдача эффектов зелий. Может быть удалено
+      priority: 3
+      # Тип выдачи. Может быть:
+      # PLAYER - только игроку, который активировал
+      # AROUND - всем игрокам, которые рядом и тому, кто активировал
+      # AROUND_OTHERS - всем игрокам рядом, кроме того, кто активировал
+      type: PLAYER
+      power: 5.0 # Сила действия. Для AROUND и AROUND_OTHERS - радиус действия. Для PLAYER - ничего.
+      effects: # Список эффектов для выдачи
+        1:
+          id: 'GLOWING' # Идентификатор эффекта
+          time: 600 # Тиков
+          level: 0 # Уровень
+
+    burn: # Поджигание игроков. Может быть удалено
+      priority: 4
+      # Тип выдачи. Может быть:
+      # PLAYER - только игроку, который активировал
+      # AROUND - всем игрокам, которые рядом и тому, кто активировал
+      # AROUND_OTHERS - всем игрокам рядом, кроме того, кто активировал
+      type: PLAYER
+      power: 5.0 # Сила действия. Для AROUND и AROUND_OTHERS - радиус действия. Для PLAYER - ничего.
+      time: 60 # Тиков
+
+    plast: # Установка стены по направлению взгляда. Может быть удалено
+      priority: 5
+      lengthPlace: 3.0 # Удаленность установки относительно игрока
+      downtimeVertical: 12 # Время простоя вертикальной стены в секундах
+      downtimeHorizontal: 15 # Время простоя горизонтальной стены в секундах
+      materials: # Материал стены
+        - 'OBSIDIAN'
+
+    trap: # Установка схемы на локации игрока. Может быть удалено
+      priority: 6
+      power: 3.0 # Радиус притяжения игроков в структуру
+      downtime: 12 # Время простоя структуры в секундах
+
+    sound: # Use sound. Can be deleted (Звук использования. Может быть удалено)
+      priority: 7
+      type: PLAYER # Тип воспроизведения. PLAYER - звук игроку. WORLD - звук в мире
+      id: 'BLOCK_METAL_HIT' # Идентификатор звука
+      volume: 1.0 # Громкость звука
+      pitch: 1.0 # Сила удаления звука
+
+    # Применяется только для предметов, которые можно бросить.
+    # Значения срабатывают в момент приземления сущности. Значения, которые работают в радиусе,
+    # используют локацию приземления. Может быть удалено
+    throwable:
+      priority: 8
+      particles: # Может быть удалено
+        priority: 1 # Локальный приоритет
+        type: CIRCLE
+        particle: FLAME
+        power: 0.2
+      clearPotionEffects: # Может быть удалено
+        priority: 2
+      potionEffects: # Может быть удалено
+        priority: 3
+        type: PLAYER
+        power: 5.0
+        effects:
+          1:
+            id: 'GLOWING'
+            time: 600
+            level: 0
+      burn: # Может быть удалено
+        priority: 4
+        type: PLAYER
+        power: 5.0
+        time: 60
+      sound: # Может быть удалено
+        priority: 5
+        type: PLAYER
+        id: 'BLOCK_METAL_HIT'
+        volume: 1.0
+        pitch: 1.0
+
+    # Параметры для material: TNT. Может быть удалено
+    tnt:
+      priority: 9
+      power: 14.0 # Сила взрыва
+      breakCustom: # Блоки, которые ломаются дополнительно
+        1:
+          material: OBSIDIAN # Материал блока
+          dropRate: 30 # Шанс выпадения предмета при взрыве. Может быть от 0 до 100

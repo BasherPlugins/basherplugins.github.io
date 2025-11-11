@@ -1,0 +1,127 @@
+name: '&#FF0000Скины на трапку'
+size: 45
+
+defaultButtonEnable:
+  name: '&6Стандартный скин'
+  lore:
+    - '&e* &fСтатус: &a[Установлено]'
+  material: NETHERITE_SCRAP
+  amount: 1
+  slot: 4
+
+defaultButtonDisable:
+  name: '&6Стандартный скин'
+  lore:
+    - '&6Нажмите&f, чтобы установить'
+  material: NETHERITE_SCRAP
+  amount: 1
+  slot: 4
+
+physicButtonEnable:
+  name: '&6Взять скин предметом'
+  lore:
+    - '&6Нажмите&f, чтобы Отключить режим,'
+    - '&fс помощью которого можно будет'
+    - '&fбрать физические скины'
+    - '&f(в виде предмета)'
+    - '&r '
+    - '&e* &fСтатус: &aАктивно'
+  material: PAPER
+  amount: 1
+  slot: 40
+
+physicButtonDisable:
+  name: '&6Взять скин предметом'
+  lore:
+    - '&6Нажмите&f, чтобы Включить режим,'
+    - '&fс помощью которого можно будет'
+    - '&fбрать физические скины'
+    - '&f(в виде предмета)'
+    - '&r '
+    - '&e* &fСтатус: &cНе активно'
+  material: PAPER
+  amount: 1
+  slot: 40
+
+trapSkinButtonBuy:
+  name: '&6{skinName} скин'
+  lore:
+    - '&6Нажмите&f, чтобы купить'
+    - '{extraLore}'
+    - '&#FF0000------------------------------'
+    - ' &fЦена: &a{price}ТК'
+    - ' &fКол-во: &6{countBuy} шт.'
+    - ' &fБаланс: &6{balance} ТК'
+    - '&#FF0000------------------------------'
+
+trapSkinButtonEnable:
+  name: '&6{skinName} скин'
+  lore:
+    - '&6[ЛКМ] &fВыключить скин'
+    - '&r '
+    - '&e* &fСтатус: &a[Установлено]'
+    - '&e@ &fКоличество: &e{amount}'
+    - '&6[ПКМ] &fКупить ещё скин'
+    - '{extraLore}'
+    - '&#FF0000------------------------------'
+    - ' &fЦена: &a{price}ТК'
+    - ' &fКол-во: &6{countBuy} шт.'
+    - ' &fБаланс: &6{balance} ТК'
+    - '&#FF0000------------------------------'
+
+trapSkinButtonDisable:
+  name: '&6{skinName} скин'
+  lore:
+    - '&6[ЛКМ] &fУстановить скин'
+    - '&r '
+    - '&e* &fСтатус: &6[Не установлено]'
+    - '&e@ &fКоличество: &e{amount}'
+    - '&6[ПКМ] &fКупить ещё скин'
+    - '{extraLore}'
+    - '&#FF0000------------------------------'
+    - ' &fЦена: &a{price}ТК'
+    - ' &fКол-во: &6{countBuy} шт.'
+    - ' &fБаланс: &6{balance} ТК'
+    - '&#FF0000------------------------------'
+
+trapSkinPhysicButton:
+  name: '&6{name} скин'
+  lore:
+    - '&e@ &fКоличество: &e{amount}'
+    - '{lore}'
+    - '&6[ЛКМ] &fВзять &e1 шт.'
+    - '&6[ПКМ] &fВзять &e50 шт.'
+    - '&6[ЛКМ+ШИФТ] &fВзять &eВсё'
+
+skins:
+  skin1:
+    id: 'someoneId'
+    name: '&cСтандартный'
+    material: STONE
+    price: 4900
+    countBuy: 50
+    slot: 12
+    extraLore:
+      - ''
+
+decor:
+  1:
+    name: 'Название сервера'
+    lore: {}
+    material: RED_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 43
+      - 44

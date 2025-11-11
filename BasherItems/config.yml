@@ -1,0 +1,117 @@
+##################################################################
+#                          BasherItems                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basheritems - админ-команды
+#   /trap-skins - открыть меню скинов трапок
+# Права:
+#   basheritems.command.basheritems - доступ к /basheritems
+#   basheritems.command.trap-skins - доступ к /trap-skins
+#
+# Все секции, которые оканчиваются на item(или полностью состоят из этого слова)
+# И подразумевают под собой настройку предмета имеют следующие характеристики:
+# (Уточнение: ЛЮБАЯ секция может быть удалена из характеристик)
+#   item:
+#     name: '&eExampleName'
+#     lore:
+#       - '&7Example lore'
+#     material: 'STONE' # Любой материал или 'base64-asdaf...'
+#     color: '255;255;255' # Формат Red;Green;Blue. Все числа 0-255. Параметр работает для TIPPED_ARROW, LEATHER брони и POTION(+его производных)
+#     amount: 1
+#     enchants:
+#       - 'ARROW_DAMAGE;1' # Зачарование;Уровень
+#     itemFlags:
+#       - 'HIDE_ENCHANTS'
+#     attributes:
+#       - 'GENERIC_MAX_HEALTH;20'
+#       - 'GENERIC_ATTACK_DAMAGE;-3'
+#       - 'GENERIC_LUCK;20%'
+#       - 'GENERIC_ATTACK_SPEED;-20%'
+#     customModelData: 0
+#     damage: 0 # Урон предмета. Устанавливается как максимальная_прочность - damage = текущая_прочность
+#     slot: 1 # Важный параметр для настроек предметов в меню
+#     slots: # Аналог параметра slot, но для нескольких значений
+#       - 1
+#
+defaultTrapSkin: 'default'
+
+trapSkinItem:
+  name: '&6{skinName} скин'
+  lore:
+    - '&eИспользуя &fэтот предмет'
+    - '&fВы его &eрасходуете,'
+    - '&fи получаете &c{skinName} &fскин взамен'
+    - '&r '
+    - '&6[ПКМ]&f, чтобы использовать &ex1 &fскин'
+    - '&6[ШИФТ+ПКМ]&f, чтобы использовать &eвсе &fскины'
+  material: paper
+
+protectBlocks:
+  - 'CHEST'
+  - 'DISPENSER'
+  - 'DROPPER'
+  - 'FURNACE'
+  - 'WORKBENCH'
+  - 'CRAFTING'
+  - 'ENCHANTING'
+  - 'BREWING'
+  - 'MERCHANT'
+  - 'SMITHING'
+  - 'BEACON'
+  - 'HOPPER'
+  - 'BARREL'
+  - 'BLAST_FURNACE'
+  - 'LECTERN'
+  - 'LOOM'
+  - 'CARTOGRAPHY'
+  - 'CARTOGRAPHY_TABLE'
+  - 'CRAFTING_TABLE'
+  - 'JUKEBOX'
+  - 'ENCHANTING_TABLE'
+  - 'END_PORTAL_FRAME'
+  - 'ANVIL'
+  - 'CHIPPED_ANVIL'
+  - 'DAMAGED_ANVIL'
+  - 'ENDER_CHEST'
+  - 'COMPOSTER'
+  - 'SMOKER'
+  - 'FLETCHING_TABLE'
+  - 'FLOWER_POT'
+  - 'ITEM_FRAME'
+  - 'GRINDSTONE'
+  - 'SMITHING_TABLE'
+  - 'STONECUTTER'
+  - 'BEE_NEST'
+  - 'BEEHIVE'
+  - 'TRAPPED_CHEST'
+  - 'BREWING_STAND'
+  - 'SHULKER_BOX'
+  - 'WHITE_SHULKER_BOX'
+  - 'ORANGE_SHULKER_BOX'
+  - 'MAGENTA_SHULKER_BOX'
+  - 'LIGHT_BLUE_SHULKER_BOX'
+  - 'YELLOW_SHULKER_BOX'
+  - 'LIME_SHULKER_BOX'
+  - 'PINK_SHULKER_BOX'
+  - 'GRAY_SHULKER_BOX'
+  - 'LIGHT_GRAY_SHULKER_BOX'
+  - 'CYAN_SHULKER_BOX'
+  - 'PURPLE_SHULKER_BOX'
+  - 'BLUE_SHULKER_BOX'
+  - 'BROWN_SHULKER_BOX'
+  - 'GREEN_SHULKER_BOX'
+  - 'RED_SHULKER_BOX'
+  - 'BLACK_SHULKER_BOX'
+  - 'STICKY_PISTON'
+  - 'PISTON'
+  - 'CAULDRON'
+  - 'IRON_BLOCK'
+  - 'GOLD_BLOCK'
+  - 'DIAMOND_BLOCK'
+  - 'EMERALD_BLOCK'
+  - 'DIAMOND_ORE'
+  - 'EMERALD_ORE'
