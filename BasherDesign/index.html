@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasherDesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: 2px solid transparent;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(138, 43, 226, 0.4);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8A2BE2;
+            --primary-dark: #4B0082;
+            --secondary: #26A5E4;
+            --accent: #FF6B6B;
+            --text: #2D3748;
+            --text-light: #718096;
+            --background: #F7FAFC;
+            --white: #FFFFFF;
+            --gradient: linear-gradient(135deg, var(--primary), var(--primary-dark));
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.1"><polygon points="1000,100 1000,0 0,100"/></svg>');
+            background-size: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            color: var(--white);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .files-section {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-header h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--gradient);
+            border-radius: 2px;
+        }
+
+        .file-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .file-card {
+            background: var(--white);
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .file-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--primary);
+            box-shadow: 0 8px 25px rgba(138, 43, 226, 0.15);
+        }
+
+        .file-header {
+            background: #f7fafc;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .file-name {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            color: var(--text);
+            font-size: 1.1rem;
+        }
+
+        .file-name i {
+            color: var(--primary);
+        }
+
+        .file-toggle {
+            color: var(--text-light);
+            transition: transform 0.3s ease;
+        }
+
+        .file-card.open .file-toggle {
+            transform: rotate(180deg);
+            color: var(--primary);
+        }
+
+        .file-content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background: #fafafa;
+        }
+
+        .file-card.open .file-content {
+            padding: 25px;
+            max-height: 600px;
+        }
+
+        .file-content pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: var(--text);
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .folder-section {
+            margin-bottom: 25px;
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .folder-header {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .folder-header:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+        }
+
+        .folder-header i {
+            transition: transform 0.3s ease;
+            color: var(--primary);
+        }
+
+        .folder-section.collapsed .folder-header i {
+            transform: rotate(-90deg);
+        }
+
+        .folder-content {
+            transition: all 0.3s ease;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        .folder-section.collapsed .folder-content {
+            max-height: 0;
+            opacity: 0;
+            padding: 0 20px;
+        }
+
+        .folder-section:not(.collapsed) .folder-content {
+            max-height: 5000px;
+            opacity: 1;
+            padding: 20px;
+        }
+
+        .folder-files {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: var(--text-light);
+        }
+
+        .loading i {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .error {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px;
+            color: var(--text-light);
+        }
+
+        .empty-state i {
+            font-size: 3em;
+            margin-bottom: 15px;
+            color: #cbd5e0;
+        }
+
+        .footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-heart {
+            color: var(--accent);
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @media (max-width: 768px) {
+            .back-button {
+                top: 10px;
+                left: 10px;
+                padding: 10px 18px;
+                font-size: 0.9rem;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .files-section {
+                padding: 25px;
+            }
+            
+            .file-header {
+                padding: 15px;
+            }
+            
+            .file-content {
+                padding: 0 15px;
+            }
+            
+            .file-card.open .file-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://basherplugins.github.io" class="back-button">
+        <i class="fas fa-arrow-left"></i> Вернуться
+    </a>
+
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>
+                    BasherDesign - Система оформления
+                </h1>
+                <p>На этой странице представлена вся информация о плагине. Здесь вы можете просмотреть содержимое YAML конфигурационных файлов.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-tag"></i> Цена: 1.700 руб
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-paper-plane"></i> 
+                    <a href="https://t.me/aleks_basher" style="color: inherit; text-decoration: none;" target="_blank">
+                        Связь для покупки
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section class="files-section">
+            <div class="section-header">
+                <h2><i class="fas fa-files"></i> Файлы конфигураций</h2>
+            </div>
+
+            <div id="files-container">
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Загрузка файлов и папок...</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <h3 style="margin-bottom: 15px;">
+                    Сделано с <span class="footer-heart">❤️</span> для сообщества Minecraft
+                </h3>
+                <p style="opacity: 0.8; font-size: 1.1rem;">
+                    <i class="fas fa-code"></i> Разработчик: Aleks_Basher
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const CONFIG = {
+            repoOwner: 'BasherPlugins',
+            repoName: 'basherplugins.github.io',
+            branch: 'main',
+            basePath: 'BasherDesign'
+        };
+
+        class ConfigFileManager {
+            constructor() {
+                this.files = [];
+                this.filteredFiles = [];
+                this.container = document.getElementById('files-container');
+                this.init();
+            }
+
+            async init() {
+                await this.loadFiles();
+            }
+
+            async loadFiles() {
+                try {
+                    this.showLoading();
+                    const contents = await this.fetchRepoContents(CONFIG.basePath);
+                    this.files = await this.organizeFiles(contents);
+                    this.renderFiles();
+                } catch (error) {
+                    this.showError(error.message);
+                }
+            }
+
+            async fetchRepoContents(path) {
+                const url = `https://api.github.com/repos/${CONFIG.repoOwner}/${CONFIG.repoName}/contents/${path}?ref=${CONFIG.branch}`;
+                
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`Ошибка HTTP: ${response.status}`);
+                }
+                
+                return await response.json();
+            }
+
+            async organizeFiles(contents) {
+                const folders = [];
+                const files = [];
+
+                for (const item of contents) {
+                    if (item.type === 'dir') {
+                        try {
+                            const folderContents = await this.fetchRepoContents(item.path);
+                            const organizedFolderContents = await this.organizeFiles(folderContents);
+                            
+                            folders.push({
+                                ...item,
+                                type: 'folder',
+                                children: organizedFolderContents,
+                                allFiles: this.getAllFilesFromFolder(organizedFolderContents)
+                            });
+                        } catch (error) {
+                            console.error(`Ошибка загрузки папки ${item.name}:`, error);
+                            folders.push({
+                                ...item,
+                                type: 'folder',
+                                children: [],
+                                allFiles: []
+                            });
+                        }
+                    } else if (item.type === 'file' && item.name.endsWith('.yml')) {
+                        files.push({
+                            ...item,
+                            type: 'file'
+                        });
+                    }
+                }
+
+                return [...folders.sort((a, b) => a.name.localeCompare(b.name)), 
+                       ...files.sort((a, b) => a.name.localeCompare(b.name))];
+            }
+
+            getAllFilesFromFolder(contents) {
+                let allFiles = [];
+                
+                for (const item of contents) {
+                    if (item.type === 'file') {
+                        allFiles.push(item);
+                    } else if (item.type === 'folder' && item.allFiles) {
+                        allFiles = allFiles.concat(item.allFiles);
+                    }
+                }
+                
+                return allFiles;
+            }
+
+            async renderFiles() {
+                this.filteredFiles = this.files;
+                
+                if (this.files.length === 0) {
+                    this.showEmptyState();
+                    return;
+                }
+
+                let html = '';
+
+                for (const item of this.filteredFiles) {
+                    if (item.type === 'folder') {
+                        html += this.renderFolder(item);
+                    } else {
+                        html += this.renderFile(item);
+                    }
+                }
+
+                this.container.innerHTML = html;
+                this.attachEventHandlers();
+            }
+
+            renderFolder(folder) {
+                let folderHtml = `
+                    <div class="folder-section" data-folder="${folder.name}">
+                        <div class="folder-header">
+                            <i class="fas fa-folder"></i>
+                            ${folder.name}/
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="folder-content">
+                `;
+
+                if (!folder.children || folder.children.length === 0) {
+                    folderHtml += `<div class="empty-state">Папка пуста</div>`;
+                } else {
+                    folderHtml += `<div class="folder-files">`;
+                    for (const item of folder.children) {
+                        if (item.type === 'file') {
+                            folderHtml += this.renderFile(item);
+                        } else if (item.type === 'folder') {
+                            folderHtml += this.renderFolder(item);
+                        }
+                    }
+                    folderHtml += `</div>`;
+                }
+
+                folderHtml += `</div></div>`;
+                return folderHtml;
+            }
+
+            renderFile(file) {
+                return `
+                    <div class="file-card" data-file="${file.name}" data-path="${file.path}">
+                        <div class="file-header">
+                            <div class="file-name">
+                                <i class="fas fa-file-code"></i>
+                                ${file.name}
+                            </div>
+                            <div class="file-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="file-content">
+                            <div class="loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Загрузка...
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            attachEventHandlers() {
+                document.querySelectorAll('.file-card').forEach(card => {
+                    const header = card.querySelector('.file-header');
+                    
+                    header.addEventListener('click', async () => {
+                        const isOpen = card.classList.contains('open');
+                        
+                        if (!isOpen) {
+                            await this.loadFileContent(card);
+                        }
+                        
+                        card.classList.toggle('open');
+                    });
+                });
+
+                document.querySelectorAll('.folder-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        const folderSection = header.closest('.folder-section');
+                        folderSection.classList.toggle('collapsed');
+                    });
+                });
+            }
+
+            async loadFileContent(card) {
+                const filePath = card.dataset.path;
+                const contentDiv = card.querySelector('.file-content');
+                
+                try {
+                    const response = await fetch(`https://raw.githubusercontent.com/${CONFIG.repoOwner}/${CONFIG.repoName}/${CONFIG.branch}/${filePath}`);
+                    if (!response.ok) throw new Error('Ошибка загрузки файла');
+                    
+                    const content = await response.text();
+                    
+                    contentDiv.innerHTML = `
+                        <pre>${this.escapeHtml(content)}</pre>
+                    `;
+                } catch (error) {
+                    contentDiv.innerHTML = `<div class="error">Ошибка загрузки содержимого: ${error.message}</div>`;
+                }
+            }
+
+            escapeHtml(unsafe) {
+                return unsafe
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+
+            showLoading() {
+                this.container.innerHTML = `
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Загрузка файлов и папок...</p>
+                    </div>
+                `;
+            }
+
+            showError(message) {
+                this.container.innerHTML = `
+                    <div class="error">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>${message}</p>
+                        <button onclick="configManager.loadFiles()" class="btn" style="margin-top: 10px; background: var(--primary); color: white;">
+                            <i class="fas fa-redo"></i> Попробовать снова
+                        </button>
+                    </div>
+                `;
+            }
+
+            showEmptyState() {
+                this.container.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-folder-open"></i>
+                        <h3>Файлы не найдены</h3>
+                        <p>В папке ${CONFIG.basePath} нет YAML файлов</p>
+                    </div>
+                `;
+            }
+        }
+
+        let configManager;
+        document.addEventListener('DOMContentLoaded', () => {
+            configManager = new ConfigFileManager();
+        });
+    </script>
+</body>
+</html>
