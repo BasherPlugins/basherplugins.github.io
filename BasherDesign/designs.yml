@@ -1,0 +1,128 @@
+# type может быть PERM или BUY
+# Если BUY, то вот пример:
+#   type: BUY
+#   price: 300
+#   data: 'Значение'
+#   addPerm: 'bvalue.1'
+#   usageFormat: '&r &r Значение &f- {access}'
+# Если PERM, то вот пример:
+#   type: PERM
+#   perm: 'bvalue.2'
+#   data: 'Значение2'
+#   usageFormat: '&r &r Значение2 &f- {access}'
+# Примечание: у staples секция data заполняется через ;
+# Пример - data: '[;]'
+# ОБЯЗАТЕЛЬНО: все секции нужно называть числами
+designs:
+  STAPLES:
+    0:
+      type: BUY
+      perm: 'bstaples.1'
+      data: '[;]'
+      usageFormat: '&r &r [] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+      price: 300
+    1:
+      type: PERM #BUY
+      perm: 'bstaples.2' #если PERM
+      data: 'Ауе'
+      usageFormat: '&r &r Ауе &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  SUFFIX:
+    0:
+      type: BUY
+      perm: 'bsuffix.1'
+      data: 'БДСМ'
+      usageFormat: '&r &r БДСМ &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+      price: 300
+    1:
+      type: PERM
+      perm: 'bsuffix.2'
+      data: 'Ауе'
+      usageFormat: '&r &r Ауе &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  PREFIX:
+    0:
+      type: BUY
+      price: 300
+      data: 'Чёрт'
+      addPerm: 'bprefix.1'
+      usageFormat: '&r &r Чёрт &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+    1:
+      type: PERM
+      perm: 'bprefix.2'
+      data: 'Даун'
+      usageFormat: '&r &r Даун &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  PREFIX_COLOR:
+    0:
+      type: BUY
+      price: 300
+      data: '&5'
+      addPerm: 'bprefix.color.1'
+      usageFormat: '&r &r &5[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+    1:
+      type: PERM
+      perm: 'bprefix.color.2'
+      data: '&c'
+      usageFormat: '&r &r &c[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  SUFFIX_COLOR:
+    0:
+      type: BUY
+      price: 300
+      data: '&5'
+      addPerm: 'bsuffix.color.1'
+      usageFormat: '&r &r &5[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+    1:
+      type: PERM
+      perm: 'bsuffix.color.2'
+      data: '&c'
+      usageFormat: '&r &r &c[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  STAPLES_COLOR:
+    0:
+      type: BUY
+      price: 300
+      data: '&5'
+      addPerm: 'bstaples.color.1'
+      usageFormat: '&r &r &5[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+    1:
+      type: PERM
+      perm: 'bstaples.color.2'
+      data: '&c'
+      usageFormat: '&r &r &c[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+  NAME_COLOR:
+    0:
+      type: BUY
+      price: 300
+      data: '&5'
+      addPerm: 'bname.color.1'
+      usageFormat: '&r &r &5[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'
+    1:
+      type: PERM
+      perm: 'bname.color.2'
+      data: '&c'
+      usageFormat: '&r &r &c[ЦВЕТ] &f- {access}'
+      target: ''
+      hover: '&cДоступно от главы'

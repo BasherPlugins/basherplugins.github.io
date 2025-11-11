@@ -1,0 +1,45 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав для доступа к этой команде'
+typeNotFound:
+  - '&cТип не был найден'
+numberFormatError:
+  - '&cОшибка числа'
+noMoney:
+  - '&cНедостаточно денег для покупки'
+playerNotFound:
+  - '&cИгрок не был найден'
+notAccess:
+  - '&cВам это недоступно'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherDesign'
+    - '&f/basherdesign reload'
+    - '&f/basherdesign show Игрок Тип'
+    - '&f/basherdesign set Игрок Тип Значение'
+  reloadSuccess:
+    - '&eКонфиги были перезагружены за {time} мс'
+  showTopSuccess:
+    - '&r '
+    - '&c------------------'
+    - '&r '
+    - '&r &c&lВыберите стиль:'
+    - '&r '
+  showBottomSuccess:
+    - '&r '
+    - '&r &r &r &c^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ '
+    - '&r '
+    - '&r &r &r &r &r &a&n&lОткрой чат, смотри выше!'
+    - '&r '
+
+changedesign:
+  usage:
+    - '&r &r &r &r &r &6&lChangeDesign'
+    - '&f/changedesign Тип Идентификатор'
+  setSuccess:
+    - '&cВы успешно установили дизайн {target}'
+  confirm:
+    - '&cВы уверены, что хотите купить {target} за {price} ТК?'
+  confirmJson: '' #/changedesign {type} {id} yes
+  buySuccess:
+    - '&aВы успешно купили дизайн'

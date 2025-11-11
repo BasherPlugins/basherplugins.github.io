@@ -1,0 +1,10 @@
+name: 'BasherDesign'
+version: '2.1.1'
+main: ru.basher.design.DesignPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ PlaceholderAPI ]
+commands:
+  basherdesign:
+  changedesign:

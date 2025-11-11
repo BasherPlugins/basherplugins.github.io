@@ -1,0 +1,49 @@
+##################################################################
+#                         BasherDesign                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherdesign - админ-команды
+#   /changedesign - команда установки/покупки дизайна
+# Права:
+#   basherdesign.command.basherdesign - доступ к /basherdesign
+#   basherdesign.command.changedesign - доступ к /changedesign
+#
+database:
+  type: LOCAL # MYSQL | LOCAL
+  mysql:
+    host: ''
+    name: ''
+    user: ''
+    password: ''
+
+defaultValues:
+  STAPLES: ''
+  SUFFIX: ''
+  PREFIX: '%luckperms_prefix%'
+  PREFIX_COLOR: ''
+  SUFFIX_COLOR: ''
+  STAPLES_COLOR: ''
+  NAME_COLOR: ''
+
+money:
+  balancePlaceholder: '%playerpoints_points%'
+  withdrawCommands:
+    - 'points take {playerName} {amount}'
+
+permissionAddCommands:
+  - 'lp user {playerName} permission set {permission} true'
+
+chatValue:
+  access: '&eДоступно'
+  accessHover: '&eНажмите, чтобы установить'
+  deny: '&cНедоступно'
+  buy: '&6[Купить: &a{price} ТК&6]'
+
+# %basherdesign_all% как пример
+placeholders:
+  all: '{staplesColor}{staplesOne}{prefixColor}{prefix}{staplesColor}{staplesTwo}&r {nameColor}{playerName}&r {suffixColor}{suffix}' # лучше использовать такое, чем много заполнителей отдельно
+  staples_one: '{staplesOne}'
