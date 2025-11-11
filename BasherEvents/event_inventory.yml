@@ -1,0 +1,27 @@
+info:
+  mystic:
+    name: '&0Лут Мистика'
+    size: 45
+  altar:
+    name: '&0Лут Алтаря'
+    size: 45
+  volcano:
+    name: '&0Лут Вулкана'
+    size: 45
+  beacon:
+    name: '&0Лут Маяка'
+    size: 45
+  chestdeath:
+    name: '&0Лут Сундука смерти'
+    size: 45
+  meteorite:
+    name: '&0Лут Метеорита'
+    size: 45
+
+fakeItem:
+  name: '&6Неизвестное сокровище'
+  lore:
+    - '&7Нажмите, чтобы забрать'
+  material: PHANTOM_MEMBRANE
+
+clickCooldown: 500 # миллисекунд

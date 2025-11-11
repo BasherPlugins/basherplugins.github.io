@@ -1,0 +1,152 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+numberFormatError:
+  - '&cВведите число'
+itemNotFound:
+  - '&cПредмет не был найден'
+
+mysticDisableInWorld:
+  - '&cМистики в этой мире запрещены'
+mysticBeaconDisableInWorld:
+  - '&cМистические маяки в этом мире запрещены'
+mysticBeaconDisableInRegion:
+  - '&cМистические маяки в регионах запрещены'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherEvents'
+    - '&f/basherevents reload'
+    - '&f/basherevents wand'
+    - '&f/basherevents saveSchema Тип_Ивента'
+    - '&f/basherevents editStorage Название_Хранилища Страница'
+    - '&f/basherevents giveMystic Игрок Айди Количество'
+    - '&f/basherevents giveMysticBeacon Игрок Количество'
+    - '&f/basherevents forceStart'
+    - '&f/basherevents reznya giveCustom Игрок Количество'
+    - '&f/basherevents reznya sellCustom Хранилище Игрок Количество'
+  reloadSuccess:
+    - '&aКонфиги перезагружены'
+  giveWandSuccess:
+    - '&aВы получили топорик для выделения'
+  saveSchemaSuccess:
+    - '&aВы сохранили схему'
+  eventTypes:
+    - '&aДоступные ивенты: {events}'
+  storageNotFound:
+    - '&cХранилище с таким названием не было найдено'
+  generalAlreadySpawned:
+    - '&cУже заспавнен'
+  forceStartSuccess:
+    - '&aИвент сейчас запустится'
+  reznyaSellNoItems:
+    - '&cУ Вас нет столько душ'
+
+event:
+  usage:
+    - '&f/event gps'
+    - '&f/event delay'
+  gpsActive:
+    - '&aЛокации активных ивентов:'
+    - '{events}'
+  gpsActiveFormat:
+    - '&e{number} {eventName} {world} {x} {y} {z}'
+  gpsNoActive:
+    - '&cНет активных ивентов'
+  delayActive:
+    - '&e{eventName}'
+    - '&a{eventStatus}'
+    - '{x} {y} {z}'
+  delayNoActive:
+    - '&cДо начала ивента {time}'
+  delayLoading:
+    - '&cИвент загружается'
+
+maxEvents:
+  - '&cИвентов уже заспавнено слишком много'
+blockedCommand:
+  - '&cЭта команда запрещена на ивенте'
+
+altar:
+  notify:
+    - '&eЧерез {time} появится Алтарь с лутом {lootName}'
+  start:
+    - 'Алтарь появился на координатах: {x} {y} {z}'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Алтарь перешёл на новую стадию'
+  stop:
+    - 'Алтарь разобрали учёные'
+
+beacon:
+  notify:
+    - '&eЧерез {time} появится Маяк с лутом {lootName}'
+  start:
+    - 'Маяк появился на координатах: {x} {y} {z}'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Маяк перешёл на новую стадию'
+  stop:
+    - 'Маяк разобрали учёные'
+
+chestdeath:
+  notify:
+    - '&eЧерез {time} появится Сундук смерти с лутом {lootName}'
+  start:
+    - 'Сундук смерти появился на спавне на PvP Арене'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Сундук смерти перешёл на новую стадию'
+  stop:
+    - 'Сундук смерти разобрали учёные'
+
+meteorite:
+  notify:
+    - '&eЧерез {time} появится Метеорит с лутом {lootName}'
+  start:
+    - 'Метеорит появился на координатах: {x} {y} {z}'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Метеорит перешёл на новую стадию'
+  stop:
+    - 'Метеорит разобрали учёные'
+
+mystic:
+  notify:
+    - '&eЧерез {time} появится Мистик с лутом {lootName}'
+  start:
+    - 'Мистик появился на координатах: {x} {y} {z}'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Мистик перешёл на новую стадию'
+  stop:
+    - 'Мистик разобрали учёные'
+
+volcano:
+  notify:
+    - '&eЧерез {time} появится Вулкан с лутом {lootName}'
+  start:
+    - 'Вулкан появился на координатах: {x} {y} {z}'
+    - 'Уровень лута: {lootName}'
+  stageUp:
+    - 'Вулкан перешёл на новую стадию'
+  stop:
+    - 'Вулкан разобрали учёные'
+
+mysticBeacon:
+  start:
+    - '&6Мистический маяк был вызван игроком: &f{playerName}'
+    - '&6Его координаты: &f{x} {y} {z}'
+  stageUp:
+    - 'Мистический маяк перешёл на новую стадию'
+  stop:
+    - 'Мистический маяк разобрали учёные'
+
+reznya:
+  notify:
+    - '&eЧерез {time} появится Адская резня'
+  start:
+    - 'Появилась адская резня'
+  stop:
+    - 'Адская резня завершена'

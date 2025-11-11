@@ -1,0 +1,66 @@
+firstStageTime: 30 #через сколько после спавна выпадут предметы
+secondStageTime: 20 #через сколько удалится ивент
+
+status:
+  first: '&5[Вулкан] &eДо извержения {time}'
+  second: '&5[Вулкан] &eДо исчезновения {time}'
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  minX: -3000
+  minZ: -3000
+  maxX: 3000
+  maxZ: 3000
+
+prevent:
+  gamemode: true
+  fly: true
+
+loot:
+  minAmount: 10
+  maxAmount: 20
+
+blockedCommands:
+  - 'sethome'
+
+#
+# Дополнительные:
+#
+itemsAnim:
+  particle: EXPLOSION_NORMAL
+  delay: 100 #мс
+  spawnDelay: 2000 # мс
+
+burn:
+  time: 2 #сек
+  delay: 10
+
+bossBar:
+  firstStage:
+    name: '&cДо выброса предметов {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо удаления {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  dropItem:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

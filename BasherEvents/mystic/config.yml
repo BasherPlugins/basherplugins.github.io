@@ -1,0 +1,64 @@
+firstStageTime: 30 #через сколько после спавна откроются сундуки
+secondStageTime: 20 #через сколько удалится ивент
+
+status:
+  first: '&5[Мистик] &eДо открытия сундука {time}'
+  second: '&5[Мистик] &eДо исчезновения {time}'
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  minX: -3000
+  minZ: -3000
+  maxX: 3000
+  maxZ: 3000
+
+prevent:
+  gamemode: true
+  fly: true
+
+loot:
+  minAmount: 10
+  maxAmount: 20
+
+blockedCommands:
+  - 'sethome'
+
+#
+# Дополнительные:
+#
+openEffects:
+  timeOffset: 4
+  effects:
+    - 'POISON;100;0' #effectType;ticks;amplifier
+
+hologram:
+  firstStage:
+    - '&cСундук откроется через &6{time}'
+  secondStage:
+    - '&cУдаление через &6{time}'
+
+bossBar:
+  firstStage:
+    name: '&cДо открытия сундука {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо закрытия сундука {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

@@ -1,0 +1,24 @@
+chest:
+  x: 0
+  y: 0
+  z: 0
+hologram:
+  offsetY: 1.0
+#
+# default values:
+#
+buildOffsetY: 0 #смещение при постройке
+maxYDifference: 3 #разница между блоками при поиске
+region:
+  minX: -1
+  minY: -1
+  minZ: -1
+  maxX: 1
+  maxY: 1
+  maxZ: 1
+blocks:
+  '0':
+    x: 0
+    y: 0
+    z: 0
+    blockData: minecraft:ender_chest

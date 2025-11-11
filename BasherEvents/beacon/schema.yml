@@ -1,0 +1,4385 @@
+chests:
+  '0':
+    x: 4
+    y: 4
+    z: -2
+  '1':
+    x: 4
+    y: 4
+    z: 2
+  '2':
+    x: -4
+    y: 4
+    z: -2
+  '3':
+    x: -4
+    y: 4
+    z: 2
+  '4':
+    x: 2
+    y: 4
+    z: -4
+  '5':
+    x: 2
+    y: 4
+    z: 4
+  '6':
+    x: -2
+    y: 4
+    z: -4
+  '7':
+    x: -2
+    y: 4
+    z: 4
+hologram:
+  offsetY: 1.0
+buildOffsetY: 0
+maxYDifference: 3
+region:
+  minX: -13
+  minY: -5
+  minZ: -13
+  maxX: 13
+  maxY: 13
+  maxZ: 13
+blocks:
+  '0':
+    x: 3
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '1':
+    x: 3
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '2':
+    x: 3
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '3':
+    x: 3
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '4':
+    x: 3
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '5':
+    x: 3
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '6':
+    x: 3
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '7':
+    x: 3
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '8':
+    x: 3
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '9':
+    x: 3
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '10':
+    x: 3
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '11':
+    x: 3
+    y: 5
+    z: -3
+    blockData: minecraft:wither_skeleton_skull[rotation=2]
+  '12':
+    x: 3
+    y: 5
+    z: 3
+    blockData: minecraft:wither_skeleton_skull[rotation=6]
+  '13':
+    x: -1
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '14':
+    x: -1
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '15':
+    x: -1
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '16':
+    x: -1
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '17':
+    x: -1
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '18':
+    x: -1
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '19':
+    x: -1
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '20':
+    x: -1
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '21':
+    x: -1
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '22':
+    x: -1
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '23':
+    x: -1
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '24':
+    x: -1
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '25':
+    x: -1
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '26':
+    x: -1
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '27':
+    x: -1
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '28':
+    x: -1
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '29':
+    x: -1
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '30':
+    x: -1
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '31':
+    x: -1
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '32':
+    x: -1
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '33':
+    x: -1
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '34':
+    x: -1
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '35':
+    x: -1
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '36':
+    x: -1
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '37':
+    x: -1
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '38':
+    x: -1
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '39':
+    x: -1
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '40':
+    x: -1
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '41':
+    x: -1
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '42':
+    x: -1
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '43':
+    x: -1
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '44':
+    x: -1
+    y: 1
+    z: 7
+    blockData: minecraft:netherite_block
+  '45':
+    x: -1
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '46':
+    x: -1
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '47':
+    x: -1
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '48':
+    x: -1
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '49':
+    x: -1
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '50':
+    x: -1
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '51':
+    x: -1
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '52':
+    x: -1
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '53':
+    x: -1
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '54':
+    x: -1
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '55':
+    x: -1
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '56':
+    x: -1
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '57':
+    x: -1
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '58':
+    x: -1
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '59':
+    x: -1
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '60':
+    x: -1
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '61':
+    x: -1
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '62':
+    x: -1
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '63':
+    x: -1
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '64':
+    x: -1
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '65':
+    x: -1
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '66':
+    x: -1
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '67':
+    x: -1
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '68':
+    x: -1
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '69':
+    x: -1
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '70':
+    x: -1
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '71':
+    x: -1
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '72':
+    x: -1
+    y: 5
+    z: -2
+    blockData: minecraft:netherite_block
+  '73':
+    x: -1
+    y: 5
+    z: -1
+    blockData: minecraft:netherite_block
+  '74':
+    x: -1
+    y: 5
+    z: 0
+    blockData: minecraft:netherite_block
+  '75':
+    x: -1
+    y: 5
+    z: 1
+    blockData: minecraft:netherite_block
+  '76':
+    x: -1
+    y: 5
+    z: 2
+    blockData: minecraft:netherite_block
+  '77':
+    x: -1
+    y: 6
+    z: -2
+    blockData: minecraft:gray_stained_glass
+  '78':
+    x: -1
+    y: 6
+    z: -1
+    blockData: minecraft:netherite_block
+  '79':
+    x: -1
+    y: 6
+    z: 0
+    blockData: minecraft:netherite_block
+  '80':
+    x: -1
+    y: 6
+    z: 1
+    blockData: minecraft:netherite_block
+  '81':
+    x: -1
+    y: 6
+    z: 2
+    blockData: minecraft:gray_stained_glass
+  '82':
+    x: -1
+    y: 7
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+  '83':
+    x: -1
+    y: 7
+    z: -1
+    blockData: minecraft:wither_skeleton_skull[rotation=14]
+  '84':
+    x: -1
+    y: 7
+    z: 1
+    blockData: minecraft:wither_skeleton_skull[rotation=10]
+  '85':
+    x: -1
+    y: 7
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+  '86':
+    x: -5
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '87':
+    x: -5
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '88':
+    x: -5
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '89':
+    x: -5
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '90':
+    x: -5
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '91':
+    x: -1
+    y: 8
+    z: 0
+    blockData: minecraft:gray_stained_glass
+  '92':
+    x: -5
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '93':
+    x: -1
+    y: 8
+    z: 1
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+  '94':
+    x: -5
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '95':
+    x: -5
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '96':
+    x: -5
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '97':
+    x: -5
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '98':
+    x: -5
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '99':
+    x: -5
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '100':
+    x: -5
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '101':
+    x: -5
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '102':
+    x: -5
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '103':
+    x: -5
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '104':
+    x: -5
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '105':
+    x: -5
+    y: 1
+    z: -7
+    blockData: minecraft:netherite_block
+  '106':
+    x: -5
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '107':
+    x: -5
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '108':
+    x: -5
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '109':
+    x: -5
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '110':
+    x: -5
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '111':
+    x: -5
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '112':
+    x: -5
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '113':
+    x: -5
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '114':
+    x: -5
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '115':
+    x: -5
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '116':
+    x: -5
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '117':
+    x: -5
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '118':
+    x: -5
+    y: 1
+    z: 6
+    blockData: minecraft:cobblestone
+  '119':
+    x: -5
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '120':
+    x: -5
+    y: 2
+    z: -6
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+  '121':
+    x: -5
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '122':
+    x: -5
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '123':
+    x: -5
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '124':
+    x: -5
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '125':
+    x: -5
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '126':
+    x: -5
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '127':
+    x: -5
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '128':
+    x: -5
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '129':
+    x: -5
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '130':
+    x: -5
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '131':
+    x: -5
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '132':
+    x: -5
+    y: 2
+    z: 6
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+  '133':
+    x: -5
+    y: 3
+    z: -5
+    blockData: minecraft:wither_skeleton_skull[rotation=14]
+  '134':
+    x: -5
+    y: 3
+    z: 5
+    blockData: minecraft:wither_skeleton_skull[rotation=10]
+  '135':
+    x: 8
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '136':
+    x: 8
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '137':
+    x: 8
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '138':
+    x: 8
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '139':
+    x: 8
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '140':
+    x: 8
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '141':
+    x: 8
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '142':
+    x: 8
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '143':
+    x: 8
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '144':
+    x: 8
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '145':
+    x: 8
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '146':
+    x: 8
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '147':
+    x: 8
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '148':
+    x: 8
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '149':
+    x: 8
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '150':
+    x: 8
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '151':
+    x: 8
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '152':
+    x: 4
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '153':
+    x: 4
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '154':
+    x: 4
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '155':
+    x: 4
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '156':
+    x: 4
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '157':
+    x: 4
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '158':
+    x: 4
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '159':
+    x: 4
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '160':
+    x: 4
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '161':
+    x: 4
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '162':
+    x: 4
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '163':
+    x: 4
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '164':
+    x: 4
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '165':
+    x: 4
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '166':
+    x: 4
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '167':
+    x: 4
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '168':
+    x: 4
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '169':
+    x: 4
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '170':
+    x: 4
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '171':
+    x: 4
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '172':
+    x: 4
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '173':
+    x: 4
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '174':
+    x: 4
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '175':
+    x: 4
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '176':
+    x: 4
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '177':
+    x: 4
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '178':
+    x: 4
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '179':
+    x: 4
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '180':
+    x: 4
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '181':
+    x: 4
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '182':
+    x: 4
+    y: 1
+    z: 6
+    blockData: minecraft:cobblestone
+  '183':
+    x: 4
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '184':
+    x: 4
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '185':
+    x: 4
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '186':
+    x: 4
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '187':
+    x: 4
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '188':
+    x: 4
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '189':
+    x: 4
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '190':
+    x: 4
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '191':
+    x: 4
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '192':
+    x: 4
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '193':
+    x: 4
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '194':
+    x: 4
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '195':
+    x: 4
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '196':
+    x: 4
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '197':
+    x: 4
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '198':
+    x: 4
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '199':
+    x: 4
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '200':
+    x: 4
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '201':
+    x: 4
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '202':
+    x: 4
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '203':
+    x: 4
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '204':
+    x: 4
+    y: 4
+    z: -2
+    blockData: minecraft:ender_chest[facing=east,waterlogged=false]
+  '205':
+    x: 4
+    y: 4
+    z: 2
+    blockData: minecraft:ender_chest[facing=east,waterlogged=false]
+  '206':
+    x: 0
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '207':
+    x: 0
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '208':
+    x: 0
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '209':
+    x: 0
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '210':
+    x: 0
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '211':
+    x: 0
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '212':
+    x: 0
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '213':
+    x: 0
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '214':
+    x: 0
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '215':
+    x: 0
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '216':
+    x: 0
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '217':
+    x: 0
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '218':
+    x: 0
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '219':
+    x: 0
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '220':
+    x: 0
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '221':
+    x: 0
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '222':
+    x: 0
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '223':
+    x: 0
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '224':
+    x: 0
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '225':
+    x: 0
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '226':
+    x: 0
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '227':
+    x: 0
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '228':
+    x: 0
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '229':
+    x: 0
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '230':
+    x: 0
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '231':
+    x: 0
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '232':
+    x: 0
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '233':
+    x: 0
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '234':
+    x: 0
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '235':
+    x: 0
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '236':
+    x: 0
+    y: 1
+    z: 6
+    blockData: minecraft:cobblestone
+  '237':
+    x: 0
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '238':
+    x: 0
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '239':
+    x: 0
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '240':
+    x: 0
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '241':
+    x: 0
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '242':
+    x: 0
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '243':
+    x: 0
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '244':
+    x: 0
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '245':
+    x: 0
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '246':
+    x: 0
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '247':
+    x: 0
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '248':
+    x: 0
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '249':
+    x: 0
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '250':
+    x: 0
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '251':
+    x: 0
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '252':
+    x: 0
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '253':
+    x: 0
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '254':
+    x: 0
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '255':
+    x: 0
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '256':
+    x: 0
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '257':
+    x: 0
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '258':
+    x: 0
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '259':
+    x: 0
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '260':
+    x: 0
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '261':
+    x: 0
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '262':
+    x: 0
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '263':
+    x: 0
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '264':
+    x: 0
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '265':
+    x: 0
+    y: 5
+    z: -2
+    blockData: minecraft:netherite_block
+  '266':
+    x: 0
+    y: 5
+    z: -1
+    blockData: minecraft:netherite_block
+  '267':
+    x: 0
+    y: 5
+    z: 0
+    blockData: minecraft:netherite_block
+  '268':
+    x: 0
+    y: 5
+    z: 1
+    blockData: minecraft:netherite_block
+  '269':
+    x: 0
+    y: 5
+    z: 2
+    blockData: minecraft:netherite_block
+  '270':
+    x: 0
+    y: 6
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
+  '271':
+    x: 0
+    y: 6
+    z: -1
+    blockData: minecraft:netherite_block
+  '272':
+    x: 0
+    y: 6
+    z: 0
+    blockData: minecraft:netherite_block
+  '273':
+    x: 0
+    y: 6
+    z: 1
+    blockData: minecraft:netherite_block
+  '274':
+    x: 0
+    y: 6
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]
+  '275':
+    x: 0
+    y: 7
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+  '276':
+    x: 0
+    y: 7
+    z: 0
+    blockData: minecraft:beacon
+  '277':
+    x: 0
+    y: 7
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+  '278':
+    x: -4
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '279':
+    x: -4
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '280':
+    x: -4
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '281':
+    x: -4
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '282':
+    x: 0
+    y: 8
+    z: -1
+    blockData: minecraft:gray_stained_glass
+  '283':
+    x: -4
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '284':
+    x: 0
+    y: 8
+    z: 0
+    blockData: minecraft:black_stained_glass
+  '285':
+    x: -4
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '286':
+    x: 0
+    y: 8
+    z: 1
+    blockData: minecraft:gray_stained_glass
+  '287':
+    x: -4
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '288':
+    x: -4
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '289':
+    x: -4
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '290':
+    x: -4
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '291':
+    x: -4
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '292':
+    x: -4
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '293':
+    x: -4
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '294':
+    x: -4
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '295':
+    x: -4
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '296':
+    x: -4
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '297':
+    x: -4
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '298':
+    x: -4
+    y: 1
+    z: -7
+    blockData: minecraft:netherite_block
+  '299':
+    x: -4
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '300':
+    x: -4
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '301':
+    x: -4
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '302':
+    x: -4
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '303':
+    x: -4
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '304':
+    x: -4
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '305':
+    x: -4
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '306':
+    x: -4
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '307':
+    x: -4
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '308':
+    x: -4
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '309':
+    x: -4
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '310':
+    x: -4
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '311':
+    x: -4
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '312':
+    x: -4
+    y: 1
+    z: 7
+    blockData: minecraft:netherite_block
+  '313':
+    x: -4
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '314':
+    x: -4
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '315':
+    x: -4
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '316':
+    x: -4
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '317':
+    x: -4
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '318':
+    x: -4
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '319':
+    x: -4
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '320':
+    x: -4
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '321':
+    x: -4
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '322':
+    x: -4
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '323':
+    x: -4
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '324':
+    x: -4
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '325':
+    x: -4
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '326':
+    x: -4
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '327':
+    x: -4
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '328':
+    x: -4
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '329':
+    x: -4
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '330':
+    x: -4
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '331':
+    x: -4
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '332':
+    x: -4
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '333':
+    x: -4
+    y: 4
+    z: -2
+    blockData: minecraft:ender_chest[facing=west,waterlogged=false]
+  '334':
+    x: -4
+    y: 4
+    z: 2
+    blockData: minecraft:ender_chest[facing=west,waterlogged=false]
+  '335':
+    x: -8
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '336':
+    x: -8
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '337':
+    x: -8
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '338':
+    x: -8
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '339':
+    x: -8
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '340':
+    x: -8
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '341':
+    x: -8
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '342':
+    x: -8
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '343':
+    x: -8
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '344':
+    x: -8
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '345':
+    x: -8
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '346':
+    x: -8
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '347':
+    x: -8
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '348':
+    x: -8
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '349':
+    x: -8
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '350':
+    x: -8
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '351':
+    x: -8
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '352':
+    x: 5
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '353':
+    x: 5
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '354':
+    x: 5
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '355':
+    x: 5
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '356':
+    x: 5
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '357':
+    x: 5
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '358':
+    x: 5
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '359':
+    x: 5
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '360':
+    x: 5
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '361':
+    x: 5
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '362':
+    x: 5
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '363':
+    x: 5
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '364':
+    x: 5
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '365':
+    x: 5
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '366':
+    x: 5
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '367':
+    x: 5
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '368':
+    x: 5
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '369':
+    x: 5
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '370':
+    x: 5
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '371':
+    x: 5
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '372':
+    x: 5
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '373':
+    x: 5
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '374':
+    x: 5
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '375':
+    x: 5
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '376':
+    x: 5
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '377':
+    x: 5
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '378':
+    x: 5
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '379':
+    x: 5
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '380':
+    x: 5
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '381':
+    x: 5
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '382':
+    x: 5
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '383':
+    x: 5
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '384':
+    x: 5
+    y: 2
+    z: -6
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+  '385':
+    x: 5
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '386':
+    x: 5
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '387':
+    x: 5
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '388':
+    x: 5
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '389':
+    x: 5
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '390':
+    x: 5
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '391':
+    x: 5
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '392':
+    x: 5
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '393':
+    x: 5
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '394':
+    x: 5
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '395':
+    x: 5
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '396':
+    x: 5
+    y: 2
+    z: 6
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+  '397':
+    x: 5
+    y: 3
+    z: -5
+    blockData: minecraft:wither_skeleton_skull[rotation=2]
+  '398':
+    x: 5
+    y: 3
+    z: 5
+    blockData: minecraft:wither_skeleton_skull[rotation=6]
+  '399':
+    x: 1
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '400':
+    x: 1
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '401':
+    x: 1
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '402':
+    x: 1
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '403':
+    x: 1
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '404':
+    x: 1
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '405':
+    x: 1
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '406':
+    x: 1
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '407':
+    x: 1
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '408':
+    x: 1
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '409':
+    x: 1
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '410':
+    x: 1
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '411':
+    x: 1
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '412':
+    x: 1
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '413':
+    x: 1
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '414':
+    x: 1
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '415':
+    x: 1
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '416':
+    x: 1
+    y: 1
+    z: -7
+    blockData: minecraft:netherite_block
+  '417':
+    x: 1
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '418':
+    x: 1
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '419':
+    x: 1
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '420':
+    x: 1
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '421':
+    x: 1
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '422':
+    x: 1
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '423':
+    x: 1
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '424':
+    x: 1
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '425':
+    x: 1
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '426':
+    x: 1
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '427':
+    x: 1
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '428':
+    x: 1
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '429':
+    x: 1
+    y: 1
+    z: 6
+    blockData: minecraft:cobblestone
+  '430':
+    x: 1
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '431':
+    x: 1
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '432':
+    x: 1
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '433':
+    x: 1
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '434':
+    x: 1
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '435':
+    x: 1
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '436':
+    x: 1
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '437':
+    x: 1
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '438':
+    x: 1
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '439':
+    x: 1
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '440':
+    x: 1
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '441':
+    x: 1
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '442':
+    x: 1
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '443':
+    x: 1
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '444':
+    x: 1
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '445':
+    x: 1
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '446':
+    x: 1
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '447':
+    x: 1
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '448':
+    x: 1
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '449':
+    x: 1
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '450':
+    x: 1
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '451':
+    x: 1
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '452':
+    x: 1
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '453':
+    x: 1
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '454':
+    x: 1
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '455':
+    x: 1
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '456':
+    x: 1
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '457':
+    x: 1
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '458':
+    x: 1
+    y: 5
+    z: -2
+    blockData: minecraft:netherite_block
+  '459':
+    x: 1
+    y: 5
+    z: -1
+    blockData: minecraft:netherite_block
+  '460':
+    x: 1
+    y: 5
+    z: 0
+    blockData: minecraft:netherite_block
+  '461':
+    x: 1
+    y: 5
+    z: 1
+    blockData: minecraft:netherite_block
+  '462':
+    x: 1
+    y: 5
+    z: 2
+    blockData: minecraft:netherite_block
+  '463':
+    x: 1
+    y: 6
+    z: -2
+    blockData: minecraft:gray_stained_glass
+  '464':
+    x: 1
+    y: 6
+    z: -1
+    blockData: minecraft:netherite_block
+  '465':
+    x: 1
+    y: 6
+    z: 0
+    blockData: minecraft:netherite_block
+  '466':
+    x: 1
+    y: 6
+    z: 1
+    blockData: minecraft:netherite_block
+  '467':
+    x: 1
+    y: 6
+    z: 2
+    blockData: minecraft:gray_stained_glass
+  '468':
+    x: 1
+    y: 7
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+  '469':
+    x: 1
+    y: 7
+    z: -1
+    blockData: minecraft:wither_skeleton_skull[rotation=2]
+  '470':
+    x: 1
+    y: 7
+    z: 1
+    blockData: minecraft:wither_skeleton_skull[rotation=6]
+  '471':
+    x: 1
+    y: 7
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+  '472':
+    x: -3
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '473':
+    x: -3
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '474':
+    x: -3
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '475':
+    x: -3
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '476':
+    x: 1
+    y: 8
+    z: -1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+  '477':
+    x: -3
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '478':
+    x: 1
+    y: 8
+    z: 0
+    blockData: minecraft:gray_stained_glass
+  '479':
+    x: -3
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '480':
+    x: 1
+    y: 8
+    z: 1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+  '481':
+    x: -3
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '482':
+    x: -3
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '483':
+    x: -3
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '484':
+    x: -3
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '485':
+    x: -3
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '486':
+    x: -3
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '487':
+    x: -3
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '488':
+    x: -3
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '489':
+    x: -3
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '490':
+    x: -3
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '491':
+    x: -3
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '492':
+    x: -3
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '493':
+    x: -3
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '494':
+    x: -3
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '495':
+    x: -3
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '496':
+    x: -3
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '497':
+    x: -3
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '498':
+    x: -3
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '499':
+    x: -3
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '500':
+    x: -3
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '501':
+    x: -3
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '502':
+    x: -3
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '503':
+    x: -3
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '504':
+    x: -3
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '505':
+    x: -3
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '506':
+    x: -3
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '507':
+    x: -3
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '508':
+    x: -3
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '509':
+    x: -3
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '510':
+    x: -3
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '511':
+    x: -3
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '512':
+    x: -3
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '513':
+    x: -3
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '514':
+    x: -3
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '515':
+    x: -3
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '516':
+    x: -3
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '517':
+    x: -3
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '518':
+    x: -3
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '519':
+    x: -3
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '520':
+    x: -3
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '521':
+    x: -3
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '522':
+    x: -3
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '523':
+    x: -3
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '524':
+    x: -3
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '525':
+    x: -3
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '526':
+    x: -3
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '527':
+    x: -3
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '528':
+    x: -3
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '529':
+    x: -3
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '530':
+    x: -3
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '531':
+    x: -3
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '532':
+    x: -3
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '533':
+    x: -3
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '534':
+    x: -3
+    y: 5
+    z: -3
+    blockData: minecraft:wither_skeleton_skull[rotation=14]
+  '535':
+    x: -3
+    y: 5
+    z: 3
+    blockData: minecraft:wither_skeleton_skull[rotation=10]
+  '536':
+    x: -7
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '537':
+    x: -7
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '538':
+    x: -7
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '539':
+    x: -7
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '540':
+    x: -7
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '541':
+    x: -7
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '542':
+    x: -7
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '543':
+    x: -7
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '544':
+    x: -7
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '545':
+    x: -7
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '546':
+    x: -7
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '547':
+    x: -7
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '548':
+    x: -7
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '549':
+    x: -7
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '550':
+    x: -7
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '551':
+    x: -7
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '552':
+    x: -7
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '553':
+    x: -7
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '554':
+    x: -7
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '555':
+    x: -7
+    y: 1
+    z: -5
+    blockData: minecraft:netherite_block
+  '556':
+    x: -7
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '557':
+    x: -7
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '558':
+    x: -7
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '559':
+    x: -7
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '560':
+    x: -7
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '561':
+    x: -7
+    y: 1
+    z: 1
+    blockData: minecraft:netherite_block
+  '562':
+    x: -7
+    y: 1
+    z: 2
+    blockData: minecraft:netherite_block
+  '563':
+    x: -7
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '564':
+    x: -7
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '565':
+    x: -7
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '566':
+    x: -7
+    y: 1
+    z: 6
+    blockData: minecraft:cobblestone
+  '567':
+    x: -7
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '568':
+    x: 6
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '569':
+    x: 6
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '570':
+    x: 6
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '571':
+    x: 6
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '572':
+    x: 6
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '573':
+    x: 6
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '574':
+    x: 6
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '575':
+    x: 6
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '576':
+    x: 6
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '577':
+    x: 6
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '578':
+    x: 6
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '579':
+    x: 6
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '580':
+    x: 6
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '581':
+    x: 6
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '582':
+    x: 6
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '583':
+    x: 6
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '584':
+    x: 6
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '585':
+    x: 6
+    y: 1
+    z: -7
+    blockData: minecraft:netherite_block
+  '586':
+    x: 6
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '587':
+    x: 6
+    y: 1
+    z: -5
+    blockData: minecraft:netherite_block
+  '588':
+    x: 6
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '589':
+    x: 6
+    y: 1
+    z: -3
+    blockData: minecraft:netherite_block
+  '590':
+    x: 6
+    y: 1
+    z: -2
+    blockData: minecraft:netherite_block
+  '591':
+    x: 6
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '592':
+    x: 6
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '593':
+    x: 6
+    y: 1
+    z: 1
+    blockData: minecraft:netherite_block
+  '594':
+    x: 6
+    y: 1
+    z: 2
+    blockData: minecraft:netherite_block
+  '595':
+    x: 6
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '596':
+    x: 6
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '597':
+    x: 6
+    y: 1
+    z: 5
+    blockData: minecraft:netherite_block
+  '598':
+    x: 6
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '599':
+    x: 6
+    y: 1
+    z: 7
+    blockData: minecraft:netherite_block
+  '600':
+    x: 6
+    y: 2
+    z: -6
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+  '601':
+    x: 6
+    y: 2
+    z: -5
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+  '602':
+    x: 6
+    y: 2
+    z: 5
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+  '603':
+    x: 6
+    y: 2
+    z: 6
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+  '604':
+    x: 2
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '605':
+    x: 2
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '606':
+    x: 2
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '607':
+    x: 2
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '608':
+    x: 2
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '609':
+    x: 2
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '610':
+    x: 2
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '611':
+    x: 2
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '612':
+    x: 2
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '613':
+    x: 2
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '614':
+    x: 2
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '615':
+    x: 2
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '616':
+    x: 2
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '617':
+    x: 2
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '618':
+    x: 2
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '619':
+    x: 2
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '620':
+    x: 2
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '621':
+    x: 2
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '622':
+    x: 2
+    y: 1
+    z: -6
+    blockData: minecraft:cobblestone
+  '623':
+    x: 2
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '624':
+    x: 2
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '625':
+    x: 2
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '626':
+    x: 2
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '627':
+    x: 2
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '628':
+    x: 2
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '629':
+    x: 2
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '630':
+    x: 2
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '631':
+    x: 2
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '632':
+    x: 2
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '633':
+    x: 2
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '634':
+    x: 2
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '635':
+    x: 2
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '636':
+    x: 2
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '637':
+    x: 2
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '638':
+    x: 2
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '639':
+    x: 2
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '640':
+    x: 2
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '641':
+    x: 2
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '642':
+    x: 2
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '643':
+    x: 2
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '644':
+    x: 2
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '645':
+    x: 2
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '646':
+    x: 2
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '647':
+    x: 2
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '648':
+    x: 2
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '649':
+    x: 2
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '650':
+    x: 2
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '651':
+    x: 2
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '652':
+    x: 2
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '653':
+    x: 2
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '654':
+    x: 2
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '655':
+    x: 2
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '656':
+    x: 2
+    y: 4
+    z: -4
+    blockData: minecraft:ender_chest[facing=north,waterlogged=false]
+  '657':
+    x: 2
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '658':
+    x: 2
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '659':
+    x: 2
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '660':
+    x: 2
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '661':
+    x: 2
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '662':
+    x: 2
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '663':
+    x: 2
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '664':
+    x: 2
+    y: 4
+    z: 4
+    blockData: minecraft:ender_chest[facing=south,waterlogged=false]
+  '665':
+    x: 2
+    y: 5
+    z: -2
+    blockData: minecraft:netherite_block
+  '666':
+    x: 2
+    y: 5
+    z: -1
+    blockData: minecraft:netherite_block
+  '667':
+    x: 2
+    y: 5
+    z: 0
+    blockData: minecraft:netherite_block
+  '668':
+    x: 2
+    y: 5
+    z: 1
+    blockData: minecraft:netherite_block
+  '669':
+    x: 2
+    y: 5
+    z: 2
+    blockData: minecraft:netherite_block
+  '670':
+    x: 2
+    y: 6
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+  '671':
+    x: 2
+    y: 6
+    z: -1
+    blockData: minecraft:gray_stained_glass
+  '672':
+    x: 2
+    y: 6
+    z: 0
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+  '673':
+    x: 2
+    y: 6
+    z: 1
+    blockData: minecraft:gray_stained_glass
+  '674':
+    x: 2
+    y: 6
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+  '675':
+    x: 2
+    y: 7
+    z: -1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+  '676':
+    x: 2
+    y: 7
+    z: 0
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+  '677':
+    x: 2
+    y: 7
+    z: 1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+  '678':
+    x: -2
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '679':
+    x: -2
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '680':
+    x: -2
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '681':
+    x: -2
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '682':
+    x: -2
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '683':
+    x: -2
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '684':
+    x: -2
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '685':
+    x: -2
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '686':
+    x: -2
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '687':
+    x: -2
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '688':
+    x: -2
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '689':
+    x: -2
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '690':
+    x: -2
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '691':
+    x: -2
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '692':
+    x: -2
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '693':
+    x: -2
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '694':
+    x: -2
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '695':
+    x: -2
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '696':
+    x: -2
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '697':
+    x: -2
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '698':
+    x: -2
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '699':
+    x: -2
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '700':
+    x: -2
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '701':
+    x: -2
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '702':
+    x: -2
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '703':
+    x: -2
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '704':
+    x: -2
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '705':
+    x: -2
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '706':
+    x: -2
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '707':
+    x: -2
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '708':
+    x: -2
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '709':
+    x: -2
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '710':
+    x: -2
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '711':
+    x: -2
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '712':
+    x: -2
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '713':
+    x: -2
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '714':
+    x: -2
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '715':
+    x: -2
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '716':
+    x: -2
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '717':
+    x: -2
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '718':
+    x: -2
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '719':
+    x: -2
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '720':
+    x: -2
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '721':
+    x: -2
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '722':
+    x: -2
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '723':
+    x: -2
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '724':
+    x: -2
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '725':
+    x: -2
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block
+  '726':
+    x: -2
+    y: 3
+    z: 1
+    blockData: minecraft:netherite_block
+  '727':
+    x: -2
+    y: 3
+    z: 2
+    blockData: minecraft:netherite_block
+  '728':
+    x: -2
+    y: 3
+    z: 3
+    blockData: minecraft:netherite_block
+  '729':
+    x: -2
+    y: 3
+    z: 4
+    blockData: minecraft:netherite_block
+  '730':
+    x: -2
+    y: 4
+    z: -4
+    blockData: minecraft:ender_chest[facing=north,waterlogged=false]
+  '731':
+    x: -2
+    y: 4
+    z: -3
+    blockData: minecraft:netherite_block
+  '732':
+    x: -2
+    y: 4
+    z: -2
+    blockData: minecraft:netherite_block
+  '733':
+    x: -2
+    y: 4
+    z: -1
+    blockData: minecraft:netherite_block
+  '734':
+    x: -2
+    y: 4
+    z: 0
+    blockData: minecraft:netherite_block
+  '735':
+    x: -2
+    y: 4
+    z: 1
+    blockData: minecraft:netherite_block
+  '736':
+    x: -2
+    y: 4
+    z: 2
+    blockData: minecraft:netherite_block
+  '737':
+    x: -2
+    y: 4
+    z: 3
+    blockData: minecraft:netherite_block
+  '738':
+    x: -2
+    y: 4
+    z: 4
+    blockData: minecraft:ender_chest[facing=south,waterlogged=false]
+  '739':
+    x: -2
+    y: 5
+    z: -2
+    blockData: minecraft:netherite_block
+  '740':
+    x: -2
+    y: 5
+    z: -1
+    blockData: minecraft:netherite_block
+  '741':
+    x: -2
+    y: 5
+    z: 0
+    blockData: minecraft:netherite_block
+  '742':
+    x: -2
+    y: 5
+    z: 1
+    blockData: minecraft:netherite_block
+  '743':
+    x: -2
+    y: 5
+    z: 2
+    blockData: minecraft:netherite_block
+  '744':
+    x: -2
+    y: 6
+    z: -2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+  '745':
+    x: -2
+    y: 6
+    z: -1
+    blockData: minecraft:gray_stained_glass
+  '746':
+    x: -2
+    y: 6
+    z: 0
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
+  '747':
+    x: -2
+    y: 6
+    z: 1
+    blockData: minecraft:gray_stained_glass
+  '748':
+    x: -2
+    y: 6
+    z: 2
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+  '749':
+    x: -2
+    y: 7
+    z: -1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]
+  '750':
+    x: -2
+    y: 7
+    z: 0
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+  '751':
+    x: -2
+    y: 7
+    z: 1
+    blockData: minecraft:purple_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]
+  '752':
+    x: -6
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '753':
+    x: -6
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '754':
+    x: -6
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '755':
+    x: -6
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '756':
+    x: -6
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '757':
+    x: -6
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '758':
+    x: -6
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '759':
+    x: -6
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '760':
+    x: -6
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '761':
+    x: -6
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '762':
+    x: -6
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '763':
+    x: -6
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '764':
+    x: -6
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '765':
+    x: -6
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '766':
+    x: -6
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '767':
+    x: -6
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '768':
+    x: -6
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '769':
+    x: -6
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '770':
+    x: -6
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '771':
+    x: -6
+    y: 1
+    z: -5
+    blockData: minecraft:netherite_block
+  '772':
+    x: -6
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '773':
+    x: -6
+    y: 1
+    z: -3
+    blockData: minecraft:netherite_block
+  '774':
+    x: -6
+    y: 1
+    z: -2
+    blockData: minecraft:netherite_block
+  '775':
+    x: -6
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '776':
+    x: -6
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '777':
+    x: -6
+    y: 1
+    z: 1
+    blockData: minecraft:netherite_block
+  '778':
+    x: -6
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '779':
+    x: -6
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '780':
+    x: -6
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '781':
+    x: -6
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '782':
+    x: -6
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '783':
+    x: -6
+    y: 1
+    z: 7
+    blockData: minecraft:netherite_block
+  '784':
+    x: -6
+    y: 2
+    z: -6
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+  '785':
+    x: -6
+    y: 2
+    z: -5
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+  '786':
+    x: -6
+    y: 2
+    z: 5
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+  '787':
+    x: -6
+    y: 2
+    z: 6
+    blockData: minecraft:purple_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+  '788':
+    x: 7
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '789':
+    x: 7
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '790':
+    x: 7
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '791':
+    x: 7
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '792':
+    x: 7
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '793':
+    x: 7
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '794':
+    x: 7
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '795':
+    x: 7
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '796':
+    x: 7
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '797':
+    x: 7
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '798':
+    x: 7
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '799':
+    x: 7
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '800':
+    x: 7
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '801':
+    x: 7
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '802':
+    x: 7
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '803':
+    x: 7
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '804':
+    x: 7
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '805':
+    x: 7
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '806':
+    x: 7
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '807':
+    x: 7
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '808':
+    x: 7
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '809':
+    x: 7
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '810':
+    x: 7
+    y: 1
+    z: -2
+    blockData: minecraft:netherite_block
+  '811':
+    x: 7
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '812':
+    x: 7
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '813':
+    x: 7
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '814':
+    x: 7
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '815':
+    x: 7
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '816':
+    x: 7
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '817':
+    x: 7
+    y: 1
+    z: 5
+    blockData: minecraft:netherite_block
+  '818':
+    x: 7
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '819':
+    x: 7
+    y: 1
+    z: 7
+    blockData: minecraft:cobblestone
+  '820':
+    x: 3
+    y: 0
+    z: -8
+    blockData: minecraft:cobblestone
+  '821':
+    x: 3
+    y: 0
+    z: -7
+    blockData: minecraft:cobblestone
+  '822':
+    x: 3
+    y: 0
+    z: -6
+    blockData: minecraft:cobblestone
+  '823':
+    x: 3
+    y: 0
+    z: -5
+    blockData: minecraft:cobblestone
+  '824':
+    x: 3
+    y: 0
+    z: -4
+    blockData: minecraft:cobblestone
+  '825':
+    x: 3
+    y: 0
+    z: -3
+    blockData: minecraft:cobblestone
+  '826':
+    x: 3
+    y: 0
+    z: -2
+    blockData: minecraft:cobblestone
+  '827':
+    x: 3
+    y: 0
+    z: -1
+    blockData: minecraft:cobblestone
+  '828':
+    x: 3
+    y: 0
+    z: 0
+    blockData: minecraft:cobblestone
+  '829':
+    x: 3
+    y: 0
+    z: 1
+    blockData: minecraft:cobblestone
+  '830':
+    x: 3
+    y: 0
+    z: 2
+    blockData: minecraft:cobblestone
+  '831':
+    x: 3
+    y: 0
+    z: 3
+    blockData: minecraft:cobblestone
+  '832':
+    x: 3
+    y: 0
+    z: 4
+    blockData: minecraft:cobblestone
+  '833':
+    x: 3
+    y: 0
+    z: 5
+    blockData: minecraft:cobblestone
+  '834':
+    x: 3
+    y: 0
+    z: 6
+    blockData: minecraft:cobblestone
+  '835':
+    x: 3
+    y: 0
+    z: 7
+    blockData: minecraft:cobblestone
+  '836':
+    x: 3
+    y: 0
+    z: 8
+    blockData: minecraft:cobblestone
+  '837':
+    x: 3
+    y: 1
+    z: -7
+    blockData: minecraft:cobblestone
+  '838':
+    x: 3
+    y: 1
+    z: -6
+    blockData: minecraft:netherite_block
+  '839':
+    x: 3
+    y: 1
+    z: -5
+    blockData: minecraft:cobblestone
+  '840':
+    x: 3
+    y: 1
+    z: -4
+    blockData: minecraft:cobblestone
+  '841':
+    x: 3
+    y: 1
+    z: -3
+    blockData: minecraft:cobblestone
+  '842':
+    x: 3
+    y: 1
+    z: -2
+    blockData: minecraft:cobblestone
+  '843':
+    x: 3
+    y: 1
+    z: -1
+    blockData: minecraft:cobblestone
+  '844':
+    x: 3
+    y: 1
+    z: 0
+    blockData: minecraft:cobblestone
+  '845':
+    x: 3
+    y: 1
+    z: 1
+    blockData: minecraft:cobblestone
+  '846':
+    x: 3
+    y: 1
+    z: 2
+    blockData: minecraft:cobblestone
+  '847':
+    x: 3
+    y: 1
+    z: 3
+    blockData: minecraft:cobblestone
+  '848':
+    x: 3
+    y: 1
+    z: 4
+    blockData: minecraft:cobblestone
+  '849':
+    x: 3
+    y: 1
+    z: 5
+    blockData: minecraft:cobblestone
+  '850':
+    x: 3
+    y: 1
+    z: 6
+    blockData: minecraft:netherite_block
+  '851':
+    x: 3
+    y: 1
+    z: 7
+    blockData: minecraft:netherite_block
+  '852':
+    x: 3
+    y: 2
+    z: -5
+    blockData: minecraft:netherite_block
+  '853':
+    x: 3
+    y: 2
+    z: -4
+    blockData: minecraft:netherite_block
+  '854':
+    x: 3
+    y: 2
+    z: -3
+    blockData: minecraft:netherite_block
+  '855':
+    x: 3
+    y: 2
+    z: -2
+    blockData: minecraft:netherite_block
+  '856':
+    x: 3
+    y: 2
+    z: -1
+    blockData: minecraft:netherite_block
+  '857':
+    x: 3
+    y: 2
+    z: 0
+    blockData: minecraft:netherite_block
+  '858':
+    x: 3
+    y: 2
+    z: 1
+    blockData: minecraft:netherite_block
+  '859':
+    x: 3
+    y: 2
+    z: 2
+    blockData: minecraft:netherite_block
+  '860':
+    x: 3
+    y: 2
+    z: 3
+    blockData: minecraft:netherite_block
+  '861':
+    x: 3
+    y: 2
+    z: 4
+    blockData: minecraft:netherite_block
+  '862':
+    x: 3
+    y: 2
+    z: 5
+    blockData: minecraft:netherite_block
+  '863':
+    x: 3
+    y: 3
+    z: -4
+    blockData: minecraft:netherite_block
+  '864':
+    x: 3
+    y: 3
+    z: -3
+    blockData: minecraft:netherite_block
+  '865':
+    x: 3
+    y: 3
+    z: -2
+    blockData: minecraft:netherite_block
+  '866':
+    x: 3
+    y: 3
+    z: -1
+    blockData: minecraft:netherite_block
+  '867':
+    x: 3
+    y: 3
+    z: 0
+    blockData: minecraft:netherite_block

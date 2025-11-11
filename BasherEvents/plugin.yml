@@ -1,0 +1,13 @@
+name: 'BasherEvents'
+version: '1.4.1'
+main: ru.basher.events.EventsPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend:
+  - Vault
+  - WorldEdit
+  - WorldGuard
+commands:
+  basherevents:
+  event:

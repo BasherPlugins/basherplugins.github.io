@@ -1,0 +1,94 @@
+firstStageTime: 300 #через сколько после спавна будут открыты сундуки
+secondStageTime: 60 #сколько будут открыты сундуки
+thirdStageTime: 20 #через сколько удалится ивент
+
+status:
+  first: '&5[Метеорит] &eДо открытия сундуков {time}'
+  second: '&5[Метеорит] &eДо закрытия сундуков {time}'
+  third: '&5[Метеорит] &eДо исчезновения {time}'
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  minX: -3000
+  minZ: -3000
+  maxX: 3000
+  maxZ: 3000
+
+prevent:
+  gamemode: true
+  fly: true
+
+loot:
+  minAmount: 10
+  maxAmount: 20
+
+blockedCommands:
+  - 'sethome'
+
+#
+# Дополнительные:
+#
+
+fireRain:
+  spawnAmount: 4
+  doRadius: 15
+  damage: 3
+  offsetY: 15
+  hitEffectsAmount: 5
+  hitParticle:
+    particle: CLOUD
+    amount: 30
+    speed: 1.0
+  defaultVector:
+    x: 0.3
+    y: 0.0
+    z: 0.0
+  hitArmorHead: BLACK_STAINED_GLASS
+  hitArmorAmount: 6
+  block:
+    minItems: 1
+    maxItems: 1
+    states: 5
+    armorAmount: 6
+    changeMaterials:
+      - 'OBSIDIAN'
+      - 'DIRT'
+      - 'STONE'
+
+hologram:
+  firstStage:
+    - '&cСундуки откроются через &6{time}'
+  secondStage:
+    - '&cСундуки закроются через &6{time}'
+  thirdStage:
+    - '&cУдаление через &6{time}'
+
+bossBar:
+  firstStage:
+    name: '&cДо открытия сундуков {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо закрытия сундуков {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  thirdStage:
+    name: '&cДо удаления {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

@@ -1,0 +1,21 @@
+#storages:
+#  easy:
+#    displayName: '&aЛёгкий'
+#    rate: 100
+#    items: {}
+storages:
+  standard:
+    displayName: '&aОбычный'
+    hover: '&#4D4D4D[&#DEAD91★★★★★&#4D4D4D]'
+    rate: 30
+    items: {}
+  normal:
+    displayName: '&eСредний'
+    hover: '&#4D4D4D[&#DEAD91★★★★★&#4D4D4D]'
+    rate: 30
+    items: {}
+  hard:
+    displayName: '&cКрутой'
+    hover: '&#4D4D4D[&#DEAD91★★★★★&#4D4D4D]'
+    rate: 20
+    items: {}

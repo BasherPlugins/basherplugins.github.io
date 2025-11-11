@@ -1,0 +1,115 @@
+stageTime: 300 # Полное время ивента
+
+status: '&5[Резня] &eДо завершения {time}'
+
+blockedCommands:
+  - 'sethome'
+
+mobsMax: 30 # Сколько мобов максимум может заспавнить, до завершения
+
+customItem:
+  name: '&9Душа' # удаляемые параметры
+  lore: {}
+  material: STICK
+  itemFlags:
+    - 'HIDE_ENCHANTS'
+  attributes:
+    - 'GENERIC_MAX_HEALTH;10'
+    - 'GENERIC_FLYING_SPEED;-10%'
+  customModelData: 0
+
+spawnLocation:
+  world: 'spawn'
+  x: 0.0
+  y: 100.0
+  z: 0.0
+  yaw: 1.0
+  pitch: 1.0
+
+portalLocation:
+  world: 'spawn'
+  min:
+    x: 0
+    y: 0
+    z: 0
+  max:
+    x: 1
+    y: 1
+    z: 1
+
+targetLocation: # Куда телепортирует портал
+  world: 'reznya'
+  x: 0.0
+  y: 100.0
+  z: 0.0
+  yaw: 1.0
+  pitch: 1.0
+
+zones:
+  1:
+    id: 'pve'
+    limit: 2
+    locations:
+      - '1;100;1'
+      - '2;100;2'
+  2:
+    id: 'pvp'
+    limit: 3
+    locations:
+      - '3;100;3'
+
+mobs:
+  1:
+    type: 'ZOMBIE'
+    zone: 'pvp'
+    displayName: '&c{health}/{maxHealth}'
+    minHealth: 40.0
+    maxHealth: 50.0
+    damage: 3.0
+
+    enableEffectsProtect: true # Если true, то моб будет игнорировать эффекты
+
+    customItem:
+      rate: 10 # из 100
+      min: 1
+      max: 2
+    loot:
+      storage: 'standard'
+      rate: 10 # из 100
+      min: 1
+      max: 10
+    dropExp:
+      rate: 10 # из 100
+      min: 2
+      max: 10
+
+    equipments:
+      1:
+        type: 'HELMET' # HELMET | CHESTPLATE | LEGGINGS | BOOTS | MAIN_HAND | OFF_HAND
+        name: '&casa' # удаляемые параметры
+        lore: {}
+        material: DIAMOND_HELMET
+        amount: 1
+        itemFlags:
+          - 'HIDE_ENCHANTS'
+        attributes:
+          - 'GENERIC_MAX_HEALTH;10'
+          - 'GENERIC_FLYING_SPEED;-10%'
+        customModelData: 0
+
+
+bossBar:
+  stage:
+    name: '&cОсталось мобов {remaining}/{max}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

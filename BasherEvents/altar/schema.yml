@@ -1,0 +1,539 @@
+chests:
+  '0':
+    x: 0
+    y: 2
+    z: -2
+  '1':
+    x: 0
+    y: 2
+    z: 2
+  '2':
+    x: 2
+    y: 2
+    z: 0
+  '3':
+    x: -2
+    y: 2
+    z: 0
+hologram:
+  offsetY: 1.0
+buildOffsetY: 0
+maxYDifference: 3
+region:
+  minX: -10
+  minY: -5
+  minZ: -10
+  maxX: 10
+  maxY: 7
+  maxZ: 10
+blocks:
+  '0':
+    x: -1
+    y: 0
+    z: -5
+    blockData: minecraft:basalt[axis=y]
+  '1':
+    x: -1
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '2':
+    x: -1
+    y: 0
+    z: -3
+    blockData: minecraft:obsidian
+  '3':
+    x: -1
+    y: 0
+    z: -2
+    blockData: minecraft:basalt[axis=y]
+  '4':
+    x: -1
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '5':
+    x: -1
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '6':
+    x: -1
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '7':
+    x: -1
+    y: 0
+    z: 2
+    blockData: minecraft:basalt[axis=y]
+  '8':
+    x: -1
+    y: 0
+    z: 3
+    blockData: minecraft:obsidian
+  '9':
+    x: -1
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '10':
+    x: -1
+    y: 0
+    z: 5
+    blockData: minecraft:basalt[axis=y]
+  '11':
+    x: -1
+    y: 1
+    z: 0
+    blockData: minecraft:obsidian
+  '12':
+    x: -5
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '13':
+    x: -5
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '14':
+    x: -5
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '15':
+    x: 4
+    y: 0
+    z: -3
+    blockData: minecraft:basalt[axis=y]
+  '16':
+    x: 4
+    y: 0
+    z: -2
+    blockData: minecraft:basalt[axis=y]
+  '17':
+    x: 4
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '18':
+    x: 4
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '19':
+    x: 4
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '20':
+    x: 4
+    y: 0
+    z: 2
+    blockData: minecraft:basalt[axis=y]
+  '21':
+    x: 4
+    y: 0
+    z: 3
+    blockData: minecraft:basalt[axis=y]
+  '22':
+    x: 0
+    y: 0
+    z: -5
+    blockData: minecraft:basalt[axis=y]
+  '23':
+    x: 0
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '24':
+    x: 0
+    y: 0
+    z: -3
+    blockData: minecraft:basalt[axis=y]
+  '25':
+    x: 0
+    y: 0
+    z: -2
+    blockData: minecraft:basalt[axis=y]
+  '26':
+    x: 0
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '27':
+    x: 0
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '28':
+    x: 0
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '29':
+    x: 0
+    y: 0
+    z: 2
+    blockData: minecraft:basalt[axis=y]
+  '30':
+    x: 0
+    y: 0
+    z: 3
+    blockData: minecraft:basalt[axis=y]
+  '31':
+    x: 0
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '32':
+    x: 0
+    y: 0
+    z: 5
+    blockData: minecraft:basalt[axis=y]
+  '33':
+    x: 0
+    y: 1
+    z: -2
+    blockData: minecraft:blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+  '34':
+    x: 0
+    y: 1
+    z: -1
+    blockData: minecraft:obsidian
+  '35':
+    x: 0
+    y: 1
+    z: 0
+    blockData: minecraft:crying_obsidian
+  '36':
+    x: 0
+    y: 1
+    z: 1
+    blockData: minecraft:obsidian
+  '37':
+    x: 0
+    y: 1
+    z: 2
+    blockData: minecraft:blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+  '38':
+    x: 0
+    y: 2
+    z: -2
+    blockData: minecraft:ender_chest[facing=north,waterlogged=false]
+  '39':
+    x: 0
+    y: 2
+    z: 2
+    blockData: minecraft:ender_chest[facing=south,waterlogged=false]
+  '40':
+    x: -4
+    y: 0
+    z: -3
+    blockData: minecraft:basalt[axis=y]
+  '41':
+    x: -4
+    y: 0
+    z: -2
+    blockData: minecraft:basalt[axis=y]
+  '42':
+    x: -4
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '43':
+    x: -4
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '44':
+    x: -4
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '45':
+    x: -4
+    y: 0
+    z: 2
+    blockData: minecraft:basalt[axis=y]
+  '46':
+    x: -4
+    y: 0
+    z: 3
+    blockData: minecraft:basalt[axis=y]
+  '47':
+    x: 5
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '48':
+    x: 5
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '49':
+    x: 5
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '50':
+    x: 1
+    y: 0
+    z: -5
+    blockData: minecraft:basalt[axis=y]
+  '51':
+    x: 1
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '52':
+    x: 1
+    y: 0
+    z: -3
+    blockData: minecraft:obsidian
+  '53':
+    x: 1
+    y: 0
+    z: -2
+    blockData: minecraft:basalt[axis=y]
+  '54':
+    x: 1
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '55':
+    x: 1
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '56':
+    x: 1
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '57':
+    x: 1
+    y: 0
+    z: 2
+    blockData: minecraft:basalt[axis=y]
+  '58':
+    x: 1
+    y: 0
+    z: 3
+    blockData: minecraft:crying_obsidian
+  '59':
+    x: 1
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '60':
+    x: 1
+    y: 0
+    z: 5
+    blockData: minecraft:basalt[axis=y]
+  '61':
+    x: 1
+    y: 1
+    z: 0
+    blockData: minecraft:obsidian
+  '62':
+    x: -3
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '63':
+    x: -3
+    y: 0
+    z: -3
+    blockData: minecraft:basalt[axis=y]
+  '64':
+    x: -3
+    y: 0
+    z: -2
+    blockData: minecraft:obsidian
+  '65':
+    x: -3
+    y: 0
+    z: -1
+    blockData: minecraft:obsidian
+  '66':
+    x: -3
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '67':
+    x: -3
+    y: 0
+    z: 1
+    blockData: minecraft:obsidian
+  '68':
+    x: -3
+    y: 0
+    z: 2
+    blockData: minecraft:crying_obsidian
+  '69':
+    x: -3
+    y: 0
+    z: 3
+    blockData: minecraft:basalt[axis=y]
+  '70':
+    x: -3
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '71':
+    x: 2
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '72':
+    x: 2
+    y: 0
+    z: -3
+    blockData: minecraft:obsidian
+  '73':
+    x: 2
+    y: 0
+    z: -2
+    blockData: minecraft:crying_obsidian
+  '74':
+    x: 2
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '75':
+    x: 2
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '76':
+    x: 2
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '77':
+    x: 2
+    y: 0
+    z: 2
+    blockData: minecraft:obsidian
+  '78':
+    x: 2
+    y: 0
+    z: 3
+    blockData: minecraft:obsidian
+  '79':
+    x: 2
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '80':
+    x: 2
+    y: 1
+    z: 0
+    blockData: minecraft:blackstone_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+  '81':
+    x: 2
+    y: 2
+    z: 0
+    blockData: minecraft:ender_chest[facing=east,waterlogged=false]
+  '82':
+    x: -2
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '83':
+    x: -2
+    y: 0
+    z: -3
+    blockData: minecraft:crying_obsidian
+  '84':
+    x: -2
+    y: 0
+    z: -2
+    blockData: minecraft:crying_obsidian
+  '85':
+    x: -2
+    y: 0
+    z: -1
+    blockData: minecraft:basalt[axis=y]
+  '86':
+    x: -2
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '87':
+    x: -2
+    y: 0
+    z: 1
+    blockData: minecraft:basalt[axis=y]
+  '88':
+    x: -2
+    y: 0
+    z: 2
+    blockData: minecraft:crying_obsidian
+  '89':
+    x: -2
+    y: 0
+    z: 3
+    blockData: minecraft:obsidian
+  '90':
+    x: -2
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]
+  '91':
+    x: -2
+    y: 1
+    z: 0
+    blockData: minecraft:blackstone_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+  '92':
+    x: -2
+    y: 2
+    z: 0
+    blockData: minecraft:ender_chest[facing=west,waterlogged=false]
+  '93':
+    x: 3
+    y: 0
+    z: -4
+    blockData: minecraft:basalt[axis=y]
+  '94':
+    x: 3
+    y: 0
+    z: -3
+    blockData: minecraft:basalt[axis=y]
+  '95':
+    x: 3
+    y: 0
+    z: -2
+    blockData: minecraft:crying_obsidian
+  '96':
+    x: 3
+    y: 0
+    z: -1
+    blockData: minecraft:crying_obsidian
+  '97':
+    x: 3
+    y: 0
+    z: 0
+    blockData: minecraft:basalt[axis=y]
+  '98':
+    x: 3
+    y: 0
+    z: 1
+    blockData: minecraft:obsidian
+  '99':
+    x: 3
+    y: 0
+    z: 2
+    blockData: minecraft:obsidian
+  '100':
+    x: 3
+    y: 0
+    z: 3
+    blockData: minecraft:basalt[axis=y]
+  '101':
+    x: 3
+    y: 0
+    z: 4
+    blockData: minecraft:basalt[axis=y]

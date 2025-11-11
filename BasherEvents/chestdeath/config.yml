@@ -1,0 +1,53 @@
+firstStageTime: 30 #через сколько после спавна откроeтся сундук
+secondStageTime: 20 #через сколько удалится ивент
+
+status:
+  first: '&5[Сундук смерти] &eДо открытия сундуков  {time}'
+  second: '&5[Сундук смерти] &eДо исчезновения {time}'
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  x: 0
+  y: 100
+  z: 0
+
+loot:
+  minAmount: 10
+  maxAmount: 20
+
+#
+# Дополнительные:
+#
+hologramOffsetY: 1.2
+
+hologram:
+  firstStage:
+    - '&cСундук откроется через &6{time}'
+  secondStage:
+    - '&cУдаление через &6{time}'
+
+bossBar:
+  firstStage:
+    name: '&cДо открытия сундука {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо закрытия сундука {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

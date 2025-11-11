@@ -1,0 +1,92 @@
+firstStageTime: 30 #через сколько после спавна сменится режим
+secondStageTime: 20 #сколько длится режим агрессии
+thirdStageTime: 30 #сколько будут открыты сундуки
+fourthStageTime: 30 #через сколько удалится ивент
+
+status:
+  first: '&5[Маяк] &eДо смены режима {time}'
+  second: '&5[Маяк] &eДо открытия сундуков {time}'
+  third: '&5[Маяк] &eДо закрытия сундуков {time}'
+  fourth: '&5[Маяк] &eДо исчезновения {time}'
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  minX: -3000
+  minZ: -3000
+  maxX: 3000
+  maxZ: 3000
+
+prevent:
+  gamemode: true
+  fly: true
+
+loot:
+  minAmount: 10
+  maxAmount: 20
+
+blockedCommands:
+  - 'sethome'
+
+#
+# Дополнительные:
+#
+
+effects:
+  delay: 20
+  list:
+    - 'POISON;100;0' #effectType;ticks;amplifier
+
+money:
+  delay: 3
+  maxAmount: 1000.0 #сколько выдаётся, когда ты прям в центре
+  perBlockSubtract: 50.0 #вычитается за каждый блок, когда ты отходишь
+  giveMessage:
+    - '&aВы получили {money}$ от маяка'
+
+tnt:
+  power: 10
+  cooldown: 5
+
+hologram:
+  firstStage:
+    - '&cСундуки откроются через &6{time}'
+  secondStage:
+    - '&cСундуки откроются через &6{time}'
+  thirdStage:
+    - '&cСундуки закроются через &6{time}'
+  fourthStage:
+    - '&cУдаление через &6{time}'
+
+bossBar:
+  firstStage:
+    name: '&cДо открытия сундуков {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо открытия сундуков {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  thirdStage:
+    name: '&cДо закрытия сундуков {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  fourthStage:
+    name: '&cДо удаления {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0

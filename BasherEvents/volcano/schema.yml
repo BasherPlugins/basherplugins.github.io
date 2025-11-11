@@ -1,0 +1,26 @@
+spawnItems:
+  x: 0
+  y: 1
+  z: 0
+spawnParticles:
+  x: 0
+  y: 1
+  z: 0
+#
+# default values:
+#
+buildOffsetY: 0 #смещение при постройке
+maxYDifference: 3 #разница между блоками при поиске
+region:
+  minX: -2
+  minY: -2
+  minZ: -2
+  maxX: 2
+  maxY: 2
+  maxZ: 2
+blocks:
+  '0':
+    x: 0
+    y: 0
+    z: 0
+    blockData: minecraft:magma_block

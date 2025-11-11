@@ -1,0 +1,94 @@
+##################################################################
+#                         BasherEvents                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherevents - админ-команды
+#   /event - информация об ивенте
+# Права:
+#   basherevents.command.basherevents - доступ к /basherevents
+#   basherevents.command.event - доступ к /event
+#
+
+spawnCooldown: 3600
+
+names:
+  mystic: '&5Мистик'
+  altar: '&5Алтарь'
+  volcano: '&4Вулкан'
+  beacon: '&bМаяк'
+  chestdeath: '&cСундук смерти'
+  meteorite: '&5Метеорит'
+  mysticBeacon: '&dМистический маяк'
+  reznya: '&6Адская резня'
+
+maxMystics: 3
+mysticWorlds:
+  - 'world'
+mysticItems:
+  item1:
+    name: ''
+    lore: {}
+    material: STICK
+    loot: RANDOM_LOOT # standard (из storage.yml) или RANDOM_LOOT
+
+mysticBeacon:
+  max: 3
+  worlds:
+    - 'world'
+  item:
+    name: '&dМистический маяк'
+    lore: {}
+    material: BEACON
+    craft: # Обязательно должно быть 3 строки по 3 значения!!!
+      - 'NETHER_START;NETHER_STAR;NETHER_STAR'
+      - 'NETHER_START;DIAMOND;NETHER_START'
+      - 'OBSIDIAN;OBSIDIAN;OBSIDIAN'
+
+region:
+  allowFlags: {}
+  denyFlags:
+    - 'LAVA-FIRE'
+    - 'WATER-FLOW'
+    - 'SNOW-FALL'
+    - 'LEAF-DECAY'
+    - 'CORAL-FADE'
+    - 'MUSHROOM-GROWTH'
+    - 'ICE-FORM'
+    - 'CROP-GROWTH'
+    - 'VINE-GROWTH'
+    - 'SNOW-MELT'
+    - 'FROSTED-ICE-FORM'
+    - 'MYCELIUM-SPREAD'
+    - 'ICE-MELT'
+    - 'SNOWMAN-TRAILS'
+    - 'SOIL-DRY'
+    - 'FROSTED-ICE-MELT'
+    - 'LAVA-FLOW'
+    - 'GRASS-GROWTH'
+
+notify:
+  timestamps:
+    - 300
+    - 60
+  sound:
+    enable: true
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+
+chestClosedSound:
+  id: 'BLOCK_CHEST_LOCKED'
+  volume: 1.0
+  pitch: 1.0
+
+chestsOpenSound:
+  id: 'BLOCK_CHEST_LOCKED'
+  volume: 1.0
+  pitch: 1.0
+
+protectSchemaMaterials:
+  - 'CHEST'

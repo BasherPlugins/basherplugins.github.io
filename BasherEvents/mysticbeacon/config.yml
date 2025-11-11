@@ -1,0 +1,70 @@
+firstStageTime: 30 # Через сколько после спавна начнётся раздача денег
+secondStageTime: 60 # Через сколько удалится ивент
+
+nearPlayersRadius: 30.0
+
+location:
+  world: 'world'
+  minX: -3000
+  minZ: -3000
+  maxX: 3000
+  maxZ: 3000
+
+prevent:
+  gamemode: true
+  fly: true
+
+blockedCommands:
+  - 'sethome'
+
+#
+# Дополнительные:
+#
+preventInRegions: true # Запрещено ли ставить в регионах
+
+money:
+  delay: 3
+  maxAmount: 1000.0 # Сколько выдаётся, когда ты прям в центре
+  maxAmountMultiplies:
+    1:
+      priority: 1
+      online: 500 # Если 500 и более человек
+      multiply: 5.0
+    2:
+      priority: 2
+      online: 30 # Если 30 и более человек
+      multiply: 2.0
+
+  perBlockSubtract: 50.0 # Вычитается за каждый блок, когда ты отходишь
+  giveMessage:
+    - '&aВы получили {money}$ от &dМистического маяка'
+
+hologram:
+  firstStage:
+    - '&cДеньги будут даваться через &6{time}'
+  secondStage:
+    - '&cУдаление через &6{time}'
+
+bossBar:
+  firstStage:
+    name: '&cДо раздачи денег {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+  secondStage:
+    name: '&cДо удаления {time}'
+    color: YELLOW
+    style: SEGMENTED_6
+
+sound:
+  spawn:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  stageUp:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    id: 'BLOCK_BEACON_POWER_SELECT'
+    volume: 1.0
+    pitch: 1.0
