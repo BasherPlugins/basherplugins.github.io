@@ -1,0 +1,60 @@
+##################################################################
+#                        BasherDuels                             #
+##################################################################
+#
+# Author: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherduels - админ-команды
+#   /duel - дуэли
+# Права:
+#   basherduels.command.basherduels - доступ к /basherduels
+#   basherduels.command.duel - доступ к /duel
+# Заполнители:
+#   %basherduels_statistic_wins_номер% - статистика побед
+#   %basherduels_statistic_loses_номер% - статистика поражений
+#
+spawnLocation:
+  world: 'world'
+  x: 1.0
+  y: 100.0
+  z: 1.0
+  yaw: 1.0
+  pitch: 1.0
+
+teamLimit: 1
+
+arena:
+  teleportingTime: 15
+  activeTime: 120
+  endingTime: 90
+
+bossBar:
+  teleporting:
+    name: '&fДо телепортации &6{time} сек'
+    color: 'BLUE'
+    style: 'SEGMENTED_6'
+  active:
+    name: '&fДо окончания &6{time} сек'
+    color: 'BLUE'
+    style: 'SEGMENTED_6'
+  ending:
+    name: '&fДо телепортации &6{time} сек'
+    color: 'BLUE'
+    style: 'SEGMENTED_6'
+
+statistic:
+  updateDelay: 120 # сек
+  topAmount: 20
+  format: '&e{position}. &f{playerName} &8- &#FF0000{value}'
+
+cooldown:
+  expBottle: 220
+  goldenApple: 12
+  enchantedGoldenApple: 60
+  enderPearl: 16
+  chorus: 5
+  firework: 6
+  totem: 0
+  potionOfHealing: 20

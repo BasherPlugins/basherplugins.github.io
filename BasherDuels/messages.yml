@@ -1,0 +1,173 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+playerIgnoring:
+  - '&cЭтот игрок не принимает заявки на дуэли'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherDuels'
+    - '&f/basherduels reload'
+  reloadSuccess:
+    - '&aПлагин был перезагружен за &f{time}мс'
+
+duel:
+  usage:
+    - '&#FF0000[Дуэли] &fПомощь по командам:'
+    - '&f/duel Ник - отправить запрос на дуэль игроку'
+    - '&f/duel ignore - выключение уведомления'
+    - '&f/duel accept - принять дуэль'
+    - '&f/duel deny - отказаться от дуэли'
+    - '&f/duel cancel - отменить дуэль'
+    - '&f/duel team - создать команду'
+    - '&f/duel teleport - вернуться после дуэли'
+  usageTeam:
+    - '&#FF0000[Дуэли] &fПомощь по командам:'
+    - '&f/duel team help - помощь по командам'
+    - '&f/duel team create - создать команду'
+    - '&f/duel team leave - выйти из команды'
+    - '&f/duel team info - информация о команде'
+    - '&f/duel team invite Ник - пригласить игрока в команду'
+    - '&f/duel team accept - принять приглашение в команду'
+    - '&f/duel team deny - отказаться от приглашения в команду'
+    - '&f/duel team cancel - отменить приглашение в команду'
+    - '&f/duel team kick Ник - выгнать игрока из команды'
+    - '&f/duel team disband - расформировать команду'
+  ###
+  targetInArena:
+    - '&cИгрок уже находится в арене!'
+  notOwner:
+    - '&cВы не владелец команды'
+  targetInYourTeam:
+    - '&cИгрок находится в Вашей команде'
+  targetNotInTeam:
+    - '&cИгрок не в команде! Ему её нужно создать'
+  targetNotOwner:
+    - '&cИгрок не владелец команды'
+  targetInTeam:
+    - '&cИгрок находится в команде, а Вы нет!'
+  requestSuccess:
+    - '&aВы отправили запрос на дуэль'
+    - '&aИгроку &f{targetName}'
+    - '{json}'
+  requestSuccessJson: ''
+  requestSuccessTarget:
+    - '&aВы получили запрос на дуэль'
+    - '&aОт игрока &f{playerName}'
+    - '{json}'
+  requestSuccessTargetJson: ''
+  requestAlready:
+    - '&cВы уже отправили этому игроку запрос'
+  ###
+  ignoreEnable:
+    - '&#FF0000[Дуэли] &FУведомления &#FF0000Выключены'
+  ignoreDisable:
+    - '&#FF0000[Дуэли] &FУведомления &aВключены'
+  ###
+  acceptNoRequests:
+    - '&cВам никто не предлагал дуэль'
+  acceptSuccess:
+    - '&aДуэль начнётся через 15 секунд'
+    - '{json}'
+  acceptSuccessJson: ''
+  ###
+  denyNoRequests:
+    - '&cВам никто не предлагал дуэль'
+  denySuccess:
+    - '&aВы отказались от предложения дуэли'
+  ###
+  cancelNoRequests:
+    - '&cВы никому не отправляли предложение о дуэли'
+  cancelSuccess:
+    - '&cВы отменили запрос на дуэль'
+  cancelArenaSuccess:
+    - '&cВы отменили дуэль'
+  ###
+  teleportNotInArena:
+    - '&cВы не на арене'
+  teleportSuccess:
+    - '&aВы ушли с арены'
+  ###
+  teamCreateAlreadyInTeam:
+    - '&cВы уже находитесь в команде'
+  teamCreateSuccess:
+    - '&aВы создали команду'
+  ###
+  teamLeaveNotInTeam:
+    - '&cВы не можете покинуть команду, т.к. в ней не находитесь'
+  teamLeaveOwner:
+    - '&cВы владелец. Используйте /duel team disband'
+  teamLeaveSuccess:
+    - '&aВы покинули команду'
+  ###
+  teamInfoNotInTeam:
+    - '&cВы не находитесь в команде'
+  teamInfoSuccess:
+    - '&6Информация о команде:'
+    - 'Лидер - {ownerName}'
+    - 'Участники - {members}'
+  ###
+  teamInviteUsage:
+    - '&eИспользовать&8: &f/duel team invite Ник'
+  teamInviteNotInTeam:
+    - '&cВы не находитесь в команде'
+  teamInviteNotOwner:
+    - '&cВы не владелец команды, чтобы это делать'
+  teamInviteLimit:
+    - '&cВ команде уже максимальное количество игроков {maxValue}'
+  teamInviteTargetInTeam:
+    - '&cИгрок уже находится в команде'
+  teamInviteSuccess:
+    - '&aВы пригласили в команду игрока {targetName}'
+    - '{json}'
+  teamInviteSuccessJson: ''
+  teamInviteSuccessTarget:
+    - '&aВас пригласил игрок {playerName} в команду'
+    - '{json}'
+  teamInviteSuccessTargetJson: ''
+  ###
+  teamAcceptAlreadyInTeam:
+    - '&cВы и так уже в команде'
+  teamAcceptNoInvites:
+    - '&cВас никто не приглашал в команду'
+  teamAcceptSuccess:
+    - '&aВы приняли приглашение в команду'
+  ###
+  teamDenyNoInvites:
+    - '&cУ Вас нет приглашений в команду'
+  teamDenySuccess:
+    - '&aВы отказались от приглашения в команду'
+  ###
+  teamCancelNotInTeam:
+    - '&cВы не состоите в команде'
+  teamCancelNoInvites:
+    - '&cВы никого не приглашали в команду'
+  teamCancelSuccess:
+    - '&aВы отменили приглашение в команду'
+  ###
+  teamKickUsage:
+    - '&eИспользовать&8: &f/duel team kick Ник'
+  teamKickNotInTeam:
+    - '&cВы не состоите в команде'
+  teamKickNotOwner:
+    - '&cВы не владелец команды'
+  teamKickTargetNotMember:
+    - '&cУчастника команды с таким ником не было найдено'
+  teamKickSuccess:
+    - '&aВы выгнали {targetName} из команды'
+  ###
+  teamDisbandNotInTeam:
+    - '&cВы не состоите в команде'
+  teamDisbandNotOwner:
+    - '&cВы не владелец команды'
+  teamDisbandSuccess:
+    - '&aВы удалили команду'
+
+arena:
+  win:
+    - '&aВы победили в дуэли'
+    - '{json}'
+  winJson: ''
+  cooldown:
+    - '&cДоступно будет через {time} секунд'
