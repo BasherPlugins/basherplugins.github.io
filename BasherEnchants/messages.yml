@@ -1,0 +1,15 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+numberError:
+  - '&cОшибка числа'
+enchantmentNotFound:
+  - '&cЗачарование не было найдено'
+itemNull:
+  - '&cВозьмите предмет в руку'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherEnchants'
+    - '&f/basherenchants reload'
+    - '&f/basherenchants give Название'
+    - '&f/basherenchants enchant Название [Уровень]'

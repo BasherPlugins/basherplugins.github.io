@@ -1,0 +1,19 @@
+##################################################################
+#                         BasherEnchants                         #
+##################################################################
+#
+# Author: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherenchants - админ-команды
+# Права:
+#   basherenchants.command.basherenchants - доступ к /basherenchants
+#
+tableChance: 50
+tableMaxAmount: 3
+webMaxBreak: 30
+customAnvilRepairCost: 4
+
+vanillaLevels:
+  DAMAGE_ALL: 6

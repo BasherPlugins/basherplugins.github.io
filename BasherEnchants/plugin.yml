@@ -1,0 +1,10 @@
+name: 'BasherEnchants'
+version: '2.0.0'
+main: ru.basher.enchants.EnchantsPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ WorldEdit , WorldGuard ]
+softdepend: [ MultiWorld ]
+commands:
+  basherenchants:

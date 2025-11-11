@@ -1,0 +1,412 @@
+poison: #/срабатывает только с крита
+  name: '&7Яд'
+  tableChange: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+  disableWorlds:
+    - 'spawn'
+  sound:
+    id: 'ENTITY_WITCH_DEATH' # Звук от world
+    volume: 0.2
+    pitch: 0.2
+  useChance: 70
+  levels:
+    1:
+      effects:
+        - 'POISON;100;1' #name;ticks;level
+    2:
+      effects:
+        - 'POISON;100;2'
+    3:
+      effects:
+        - 'POISON;100;3'
+bomber: #работает на выстрел. При попадании в игрока вызывается взыр, который не ломает блоки
+  name: '&7Подрывник'
+  tableChance: 2
+  items:
+    - 'BOW'
+  disableWorlds:
+    - 'spawn'
+  chance: 10
+  radius: 3.0 #радиус взрыва
+vampire: #/работает только с крита.
+  name: '&7Вампиризм'
+  table_chance: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+  disableWorlds:
+    - 'spawn'
+  useChance: 70
+  sound:
+    id: 'ENTITY_VINDICATOR_HURT' # Звук от world
+    volume: 0.2
+    pitch: 0.2
+  levels:
+    1:
+      effects:
+        - 'REGENERATION;60;1'
+    2:
+      effects:
+        - 'REGENERATION;60;2'
+experienced: #умножает количество выдаваемого опыта
+  name: '&7Опытный'
+  tableChance: 2
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      multiplyExp: 1.5
+    2:
+      multiplyExp: 2.0
+    3:
+      multiplyExp: 3.0
+detect: #/работает только с крита
+  name: '&7Детекция'
+  tableChance: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      chance: 10
+      effects:
+        - 'GLOWING;100;1'
+    2:
+      chance: 15
+      effects:
+        - 'GLOWING;100;1'
+    3:
+      chance: 20
+      effects:
+        - 'GLOWING;100;1'
+oxid: #/при ударе с крита ломает сильно броню
+  name: '&7Окисление'
+  tableChance: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      addArmorDamage: 2
+    2:
+      addArmorDamage: 3
+sniper: #на стрельбу. Ускоряет стрелу от уровня игрока
+  name: '&7Снайпер'
+  tableChance: 2
+  items:
+    - 'BOW'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      multiplySpeed: 1.5
+      expLevel: 0 #уровень игрока
+    2:
+      multiplySpeed: 2.0
+      expLevel: 0 #уровень игрока
+    3:
+      multiplySpeed: 3.0
+      expLevel: 0 #уровень игрока
+stupor: #на стрельбу. (для трезубца) #при попадании в игрока
+  name: '&7Ступор'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+  sound:
+    id: 'ENTITY_WITHER_SHOOT' # Звук от world
+    volume: 0.2
+    pitch: 0.2
+  levels:
+    1:
+      effects:
+        - 'SLOW;60;1'
+        - 'WEAKNESS;60;1'
+    2:
+      effects:
+        - 'SLOW;60;2'
+        - 'WEAKNESS;60;2'
+    3:
+      effects:
+        - 'SLOW;100;2'
+        - 'WEAKNESS;100;2'
+scout: #от выстрела(для трезубца). куда то притягивает
+  name: '&7Скаут'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      multiplyLength: 0.2
+    2:
+      multiplyLength: 0.3
+    3:
+      multiplyLength: 0.4
+gravity: #от выстрела(для трезубца). притягивает игрока к тебе, по которому попал
+  name: '&7Притяжение'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      multiplyLength: 0.2
+    2:
+      multiplyLength: 0.3
+    3:
+      multiplyLength: 0.4
+back: #от выстрела(для трезубца). быстро вернуть в инвентарь после попадания
+  name: '&7Возвращение'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+  backChance: 15
+radius: #/
+  name: '&7Бульдозер'
+  tableChance: 2 #из 100
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  protectMaterials:
+    - 'OBSIDIAN'
+    - 'WATER'
+    - 'LAVA'
+    - 'BEDROCK'
+    - 'SPAWNER'
+  sound:
+    id: 'BLOCK_STONE_BREAK' # Звук игроку
+    volume: 0.2
+    pitch: 0.2
+  levels:
+    1:
+      radius: 1
+    2:
+      radius: 2
+woodcutter: #/
+  name: '&7Дровосек'
+  tableChance: 2
+  items:
+    - 'WOODEN_AXE'
+    - 'STONE_AXE'
+    - 'GOLDEN_AXE'
+    - 'IRON_AXE'
+    - 'DIAMOND_AXE'
+    - 'NETHERITE_AXE'
+  disableWorlds:
+    - 'spawn'
+  breakBlocks:
+    - 'OAK_LOG'
+    - 'SPRUCE_LOG'
+    - 'BIRCH_LOG'
+    - 'JUNGLE_LOG'
+    - 'ACACIA_LOG'
+    - 'DARK_OAK_LOG'
+    - 'CRIMSON_STEM'
+    - 'WARPED_STEM'
+  sound:
+    id: 'BLOCK_WOOD_BREAK' # Звук игроку
+    volume: 0.2
+    pitch: 0.2
+  particle:
+    particle: 'FLAME'
+    amount: 2
+    speed: 0.0
+  levels:
+    1:
+      radius: 1
+    2:
+      radius: 2
+    3:
+      radius: 3
+magneto: #/
+  name: '&7Магнит'
+  tableChance: 2
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  magnetoItems: #те блоки, которые притягиваются
+    - 'GOLD_ORE'
+    - 'IRON_ORE'
+    - 'COAL_ORE'
+    - 'NETHER_GOLD_ORE'
+    - 'DIAMOND_ORE'
+    - 'REDSTONE_ORE'
+    - 'EMERALD_ORE'
+    - 'NETHER_QUARTZ_ORE'
+    - 'GILDED_BLACKSTONE'
+pinger:
+  name: '&7Пингер'
+  tableChance: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  triggerDamage: 20
+  sound:
+    id: 'BLOCK_ANVIL_LAND'
+    volume: 0.2
+    pitch: 0.2
+  title: '&c&lМало прочности!' #отправка на 0.5 сек
+  subtitle: '&fСрочно почини предмет'
+smelt: #/
+  name: '&7Автоплавка'
+  tableChance: 2
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  particle: # На сломанном блоке
+    particle: 'FLAME'
+    amount: 2
+    speed: 0.0
+lavawalk: #/только на любые ботинки.
+  name: '&7Лаваход'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+  blockChange: 'OBSIDIAN' #блок лавы заменяется на обсидиан
+  flowChange: 'COBBLESTONE' #поток лавы заменяется на камень
+  sound:
+    id: 'BLOCK_LAVA_EXTINGUISH'
+    volume: 0.2
+    pitch: 0.2
+  bootsDamage: 1 #кол-во дамага на предмет при использовании
+  particle: # Над блоком в центре
+    particle: 'FLAME'
+    amount: 2
+    speed: 0.0
+jumper: #/только на любые ботинки. навсегда 1 уровень попрыгунчика, когда одето
+  name: '&7Попрыгун'
+  tableChance: 2
+  disableWorlds:
+    - 'spawn'
+heavy: #/при ломании блоков даются эффекты
+  name: '&7Тяжелый'
+  tableChance: 2
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      effects:
+        - 'SLOW;40;1'
+    2:
+      effects:
+        - 'SLOW;60;1'
+    3:
+      effects:
+        - 'SLOW;60;2'
+unstable: #при использовании предметы быстрее ломается
+  name: '&7Нестабильный'
+  tableChance: 2
+  items:
+    - 'WOODEN_SWORD'
+    - 'STONE_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'NETHERITE_SWORD'
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  levels:
+    1:
+      itemDamageAdd: 2
+    12:
+      itemDamageAdd: 3
+web:
+  name: '&7Паутина'
+  tableChance: 2
+  items:
+    - 'WOODEN_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'GOLDEN_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'DIAMOND_PICKAXE'
+    - 'NETHERITE_PICKAXE'
+  disableWorlds:
+    - 'spawn'
+  breakBlocks:
+    - 'GOLD_ORE'
+    - 'IRON_ORE'
+    - 'COAL_ORE'
+    - 'NETHER_GOLD_ORE'
+    - 'DIAMOND_ORE'
+    - 'REDSTONE_ORE'
+    - 'EMERALD_ORE'
+    - 'NETHER_QUARTZ_ORE'
+    - 'GILDED_BLACKSTONE'
+  sound:
+    id: 'BLOCK_CHAIN_FALL'
+    volume: 0.2
+    pitch: 0.2
+  particle:
+    particle: 'FLAME'
+    amount: 2
+    speed: 0.0
