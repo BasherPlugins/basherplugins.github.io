@@ -1,0 +1,65 @@
+name: '&0Участники клана: {clanName}'
+size: 45
+
+slots:
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+
+backItem:
+  name: '&6&lНазад'
+  material: SPECTRAL_ARROW
+  slot: 4
+
+leaderItem:
+  name: '&8[{prefix}&8] {playerName}'
+  lore:
+    - '&cЛидер клана имеет полный доступ!'
+  material: PLAYER_HEAD
+
+memberAccessItem:
+  name: '&5[&e{prefix}&5] &6{playerName}'
+  lore:
+    - '&7Нажмите, чтобы изменить права этого игрока'
+  material: PLAYER_HEAD
+
+status:
+  enable: '&aРазрешено'
+  disable: '&cЗапрещено'
+
+memberNoAccessItem:
+  name: '&5[&e{prefix}&5] &6{playerName}'
+  lore:
+    - '&7Просматривать баланс {showBalance}'
+    - '&7Вкладывать деньги {addBalance}'
+    - '&7Снимать деньги {takeBalance}'
+    - '&7Приглашать участников {invite}'
+    - '&7Кикать участников {kick}'
+    - '&7Переключать режим пвп {pvp}'
+    - '&7Менять название клана {rename}'
+    - '&7Добавлять сетхом базы {sethome}'
+    - '&7ТП на базу {home}'
+    - '&7Удалять сетхом базы {delhome}'
+    - '&7Пользоваться хранилищем {storage}'
+    - '&7Менять права участникам {perms}'
+    - '&7Менять префикс участникам {prefix}'
+  material: PLAYER_HEAD
+
+decor:
+  1:
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8

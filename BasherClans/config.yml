@@ -1,0 +1,129 @@
+##################################################################
+#                          BasherClans                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды(можно поменять в plugin.yml):
+#   /basherclans - админ-команды
+#   /clan - команды клана (/c)
+# Права:
+#   basherclans.command.basherclans - доступ к /basherclans
+#   basherclans.command.clan - доступ к /clan
+# Обязательные плагины:
+#   PlaceholderAPI, Vault(Economy), ProtocolLib
+#
+# Все секции, которые оканчиваются на item(или полностью состоят из этого слова)
+# И подразумевают под собой настройку предмета имеют следующие характеристики:
+# (Уточнение: ЛЮБАЯ секция может быть удалена из характеристик)
+#   item:
+#     name: '&eExampleName'
+#     lore:
+#       - '&7Example lore'
+#     material: 'STONE' # Любой материал или 'base64-asdaf...'
+#     color: '255;255;255' # Формат Red;Green;Blue. Все числа 0-255. Параметр работает для TIPPED_ARROW, LEATHER брони и POTION(+его производных)
+#     amount: 1
+#     enchants:
+#       - 'ARROW_DAMAGE;1' # Зачарование;Уровень
+#     itemFlags:
+#       - 'HIDE_ENCHANTS'
+#     attributes:
+#       - 'GENERIC_MAX_HEALTH;20'
+#       - 'GENERIC_ATTACK_DAMAGE;-3'
+#       - 'GENERIC_LUCK;20%'
+#       - 'GENERIC_ATTACK_SPEED;-20%'
+#     customModelData: 0
+#     damage: 0 # Урон предмета. Устанавливается как максимальная_прочность - damage = текущая_прочность
+#     slot: 1 # Важный параметр для настроек предметов в меню
+#     slots: # Аналог параметра slot, но для нескольких значений
+#       - 1
+#
+database:
+  savePeriod: 60 # Периодичность сохранения данных в базу данных в секундах. Лучше оставить 60
+
+clan:
+  createPrice: 2500.0
+  nameAllowChars: 'abcdefghijklmnopqrstuvwxyz1234567890-_ ' # Доступные символы в названии клана
+  nameMinLength: 3 # Минимальная длина названия клана при создании
+  nameMaxLength: 15 # Максимальная длина названия клана при создании
+  prefixAllowChars: 'abcdefghijklmnopqrstuvwxyz1234567890_ ' # Доступные символы в префиксе участника клана
+  armorColorAccessLevel: 3 # Уровень клана, дающий доступ к смене цвета отображаемой брони
+  inviteMaxTime: 60 # Максимальное время(в секундах) активности приглашения в клан
+  homeNameAllowChars: 'abcdefghijklmnopqrstuvwxyz1234567890' # Доступные символы в названии дома клана
+  default:
+    balance: 0.0
+    exp: 0
+    kills: 0
+    pvp: false
+    armorColor: '200;200;200' # Формат Red;Green;Blue. Все числа 0-255
+    ownerPrefix: '&aГлава'
+    memberPrefix: '&eУчастник'
+    # Права для участника клана. Доступны следующие позиции:
+    # SHOW_BALANCE - видеть баланс клана
+    # ADD_BALANCE - вкладывать деньги в клан
+    # TAKE_BALANCE - забирать деньги из клана
+    # INVITE - приглашать участников в клан
+    # KICK - выгонять участников из клана
+    # PVP - переключать PvP-статус клана
+    # RENAME - переименовывать клан
+    # SETHOME - устанавливать точку дома клана
+    # HOME - телепортироваться на точку дома клана
+    # DELHOME - удалять точку дома клана
+    # STORAGE - пользоваться хранилищем клана
+    # PERMS - изменять права участникам клана
+    # PREFIX - изменять префиксы участников клана
+    memberPerms:
+      - 'SHOW_BALANCE'
+      - 'ADD_BALANCE'
+
+# Меню участников клана. Возможно использовать следующие виды отображения:
+# DEFAULT - права настраиваются с помощью кнопок мыши путём изменения описания предмета
+# INVENTORY - права настраиваются через отдельное меню с помощью кнопок. Рекомендуется для Geyser серверов
+membersMenuType: 'DEFAULT'
+
+chat:
+  # Команды-аналоги стандартному /clan chat. Заполняются без /
+  aliases:
+    - 'cc'
+
+# Вторая экономика для "быстрых" покупок уровней
+secondEconomy:
+  balancePlaceholder: '%playerpoints_points%'
+  takeMoneyCommands:
+    - 'points take {playerName} {amount}'
+
+# Заполнители для чата, таба и т.д.
+# В данном разделе Вы можете создать бесконечно много кастомизированных заполнителей
+# Структура создания следующая:
+# placeholders:
+#   example_id: '{clanName}' # Теперь %basherclans_example_id% будет выводить название клана
+# Доступные параметры:
+# {clanId} - идентификатор клана
+# {clanName} - название клана
+placeholders:
+  clan_name: '&r{clanName}'
+
+# Натуральные способы получения опыта клана
+exp:
+  break:
+    - 'EMERALD_BLOCK;3' # Формат Материал;Количество_Опыта
+  place:
+    - 'EMERALD_BLOCK;3' # Формат Материал;Количество_Опыта
+  killMonster: 4
+  killAnimal: 2
+  killPlayer: 10
+
+sound:
+  levelUp:
+    id: 'BLOCK_ANVIL_BREAK'
+    volume: 1.0
+    pitch: 1.0
+  noMoney:
+    id: 'BLOCK_ANVIL_BREAK'
+    volume: 1.0
+    pitch: 1.0
+  menuClick:
+    id: 'BLOCK_ANVIL_BREAK'
+    volume: 1.0
+    pitch: 1.0

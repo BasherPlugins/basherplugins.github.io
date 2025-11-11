@@ -1,0 +1,24 @@
+name: '&cМеню покупки'
+size: 9
+
+buyItem:
+  name: '&aКупить {level} уровень за {price} ТК'
+  material: STONE
+  slot: 3
+
+cancelItem:
+  name: '&cОтменить'
+  material: ARROW
+  slot: 5
+
+decor:
+  1:
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 4
+      - 6
+      - 7
+      - 8

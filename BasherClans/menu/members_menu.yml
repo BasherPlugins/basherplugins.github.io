@@ -1,0 +1,128 @@
+name: '&0Участники клана: {clanName}'
+size: 45
+
+slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+
+backItem:
+  name: '&cВернуться назад'
+  material: ARROW
+  slot: 4
+
+leaderItem: # Здесь параметр slot игнорируется
+  name: '&8[{prefix}&8] {playerName}'
+  lore:
+    - '&cЛидер клана имеет полный доступ!'
+  material: PLAYER_HEAD
+
+memberAccessItem: # Здесь параметр slot игнорируется
+  name: '&5[&e{prefix}&5] &6{playerName}'
+  lore:
+    - '&7---------------------------------'
+    - '&r &fПКМ &7- Листать вниз'
+    - '&r &fЛКМ &7- Менять значение'
+    - '&r &fЛКМ+Shift &7- Изменить все права'
+    - '&7---------------------------------'
+    - '{settings}'
+  material: PLAYER_HEAD
+
+memberNoAccessItem: # Здесь параметр slot игнорируется
+  name: '&5[&e{prefix}&5] &6{playerName}'
+  lore:
+    - '{settings}'
+  material: PLAYER_HEAD
+
+settingsSelectFormat: '&a&l⇛ &f&l&n{text}&f [{status}&f]'
+settingsNotSelectFormat: '&7&l⇛ &7{text}&f {status}'
+
+statusYes: '&aДа'
+statusNo: '&cНет'
+
+settings:
+  1:
+    permission: SHOW_BALANCE
+    text: 'Просматривать баланс'
+  2:
+    permission: ADD_BALANCE
+    text: 'Вкладывать деньги'
+  3:
+    permission: TAKE_BALANCE
+    text: 'Снимать деньги'
+  4:
+    permission: INVITE
+    text: 'Приглашать участников'
+  5:
+    permission: KICK
+    text: 'Кикать участников'
+  6:
+    permission: PVP
+    text: 'Переключать режим пвп'
+  7:
+    permission: RENAME
+    text: 'Менять название клана'
+  8:
+    permission: SETHOME
+    text: 'Добавлять сетхом базы'
+  9:
+    permission: HOME
+    text: 'ТП на базу'
+  10:
+    permission: DELHOME
+    text: 'Удалять сетхом базы'
+  11:
+    permission: STORAGE
+    text: 'Пользоваться хранилищем'
+  12:
+    permission: PERMS
+    text: 'Менять права участников'
+  13:
+    permission: PREFIX
+    text: 'Менять префикс участникам'
+
+decor:
+  1:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44

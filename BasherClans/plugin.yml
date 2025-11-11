@@ -1,0 +1,12 @@
+name: BasherClans
+version: '2.0.3'
+main: ru.basher.clans.ClansPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ Vault , PlaceholderAPI , ProtocolLib ]
+commands:
+  basherclans:
+    aliases: [ clans ]
+  clan:
+    aliases: [ c ]

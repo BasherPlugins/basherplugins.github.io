@@ -1,0 +1,118 @@
+name: '&0Клан: {clanName}'
+size: 45
+
+infoItem:
+  name: '&7Информация о клане'
+  lore:
+    - '&r &fКлан: {clanName}'
+    - '&r &fВладелец: {owner}'
+    - '&r &fУчастников: {members}/{maxMembers}'
+    - '&r &fУровень: &d{level} &8(&9{exp} XP&8)'
+    - '&r &fБаланс: &6${balance}'
+    - '&r '
+    - '&r &fPVP-Режим: {pvp}'
+    - '&r &fМакс. символов: &e{maxChars}'
+    - '&r &fЛимит казны: &e{maxBalance}'
+    - '&r &fЛимит хранилища: &e{maxStorage}'
+  material: KNOWLEDGE_BOOK
+  slot: 10
+
+storageItem:
+  name: '&6Хранилище ресурсов'
+  lore:
+    - '&fЛимит хранилища: &e{maxStorage}'
+    - '&r '
+    - '&fПри помощи хранилища можно'
+    - '&fсоздавать общий клановый'
+    - '&fсундук для хранения вещей.'
+  material: ENDER_CHEST
+  slot: 34
+
+topItem:
+  name: '&6Топ кланов'
+  lore:
+    - '&fВы на &e{position} месте &fв топе'
+    - '&r '
+    - '&r &fТОП по Уровню &cКланов'
+    - '&r &a① [&5{clanName}&a] &fлидер: &a{owner}&f, &9{exp}&9 XP'
+    - '&r &e② [&5{clanName}&e] &fлидер: &e{owner}&f, &9{exp}&9 XP'
+    - '&r &6③ [&5{clanName}&6] &fлидер: &6{owner}&f, &9{exp}&9 XP'
+    - '&r &c④ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑤ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑥ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑦ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑧ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑨ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+    - '&r &c⑩ [&5{clanName}&c] &fлидер: &c{owner}&f, &9{exp}&9 XP'
+  material: ENCHANTED_GOLDEN_APPLE
+  slot: 13
+
+upgradeItem:
+  name: '&6Уровень клана'
+  lore:
+    - '&fВаш уровень: &d{level} &8(&9{exp} XP&8)'
+    - '&r '
+    - '&fПрокачивайте клан, чтобы'
+    - '&fполучать новые возможности,'
+    - '&fповышать лимиты, быть круче.'
+  material: DIAMOND
+  slot: 12
+
+membersItem:
+  name: '&6Список участников'
+  lore:
+    - '&fУчастников: &e{members}/{maxMembers}'
+    - '&r '
+    - '&fПокажет всех участников'
+    - '&fклана и поможет настроить'
+    - '&fих права и возможности'
+  material: TOTEM_OF_UNDYING
+  slot: 11
+
+armorItem:
+  name: '&cЦвет брони'
+  lore:
+    - '&fИгроки вашего клана'
+    - '&fбудут изображены'
+    - '&fцветной бронёй'
+    - '&fвместо обычной.'
+  slot: 19
+
+designItem:
+  name: '&6Дизайн клана'
+  lore:
+    - '&fДоступные цвета:'
+    - '{accessColors}'
+    - '&cНЕ &fДоступные цвета:'
+    - '{noAccessColors}'
+  material: NAME_TAG
+  slot: 28
+
+decor:
+  1:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44

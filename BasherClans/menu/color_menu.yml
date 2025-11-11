@@ -1,0 +1,121 @@
+name: '&0Выберите цвет:'
+size: 36
+
+selectedItem: # Здесь параметры slot и material не учитываются
+  name: '&2Выбрано'
+  itemFlags:
+    - 'HIDE_ATTRIBUTES'
+    - 'HIDE_POTION_EFFECTS'
+    - 'HIDE_DYE'
+    - 'HIDE_ENCHANTS'
+
+unselectedItem: # Здесь параметры slot и material не учитываются
+  name: '&4Выбрать цвет'
+  itemFlags:
+    - 'HIDE_ATTRIBUTES'
+    - 'HIDE_POTION_EFFECTS'
+    - 'HIDE_DYE'
+    - 'HIDE_ENCHANTS'
+
+customColorsItem:
+  name: '&eНастройки участников'
+  material: BEACON
+  slot: 5
+
+backItem:
+  name: '&6&lНазад'
+  material: SPECTRAL_ARROW
+  slot: 31
+
+enableItem:
+  name: '&cВыключить отображение'
+  material: LIME_DYE
+  enchants:
+    - 'ARROW_DAMAGE;1'
+  itemFlags:
+    - 'HIDE_ATTRIBUTES'
+    - 'HIDE_POTION_EFFECTS'
+    - 'HIDE_DYE'
+    - 'HIDE_ENCHANTS'
+  slot: 4
+
+disableItem:
+  name: '&aВключить отображение'
+  material: RED_DYE
+  enchants:
+    - 'ARROW_DAMAGE;1'
+  itemFlags:
+    - 'HIDE_ATTRIBUTES'
+    - 'HIDE_POTION_EFFECTS'
+    - 'HIDE_DYE'
+    - 'HIDE_ENCHANTS'
+  slot: 4 # Должен быть такой же, как у enableItem, чтобы всё работало верно
+
+colors:
+  1:
+    color: '205;0;0' # Формат Red;Green;Blue. Все числа 0-255
+    slot: 10
+  2:
+    color: '205;84;0'
+    slot: 11
+  3:
+    color: '205;205;0'
+    slot: 12
+  4:
+    color: '127;205;84'
+    slot: 13
+  5:
+    color: '0;205;0'
+    slot: 14
+  6:
+    color: '0;205;205'
+    slot: 15
+  7:
+    color: '0;127;205'
+    slot: 16
+  8:
+    color: '0;0;205'
+    slot: 19
+  9:
+    color: '84;0;205'
+    slot: 20
+  10:
+    color: '169;0;205'
+    slot: 21
+  11:
+    color: '205;205;205'
+    slot: 22
+  12:
+    color: '148;148;148'
+    slot: 23
+  13:
+    color: '64;64;64'
+    slot: 24
+  14:
+    color: '0;0;0'
+    slot: 25
+
+decor:
+  1:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 32
+      - 33
+      - 34
+      - 35

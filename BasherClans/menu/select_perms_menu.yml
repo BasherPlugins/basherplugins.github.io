@@ -1,0 +1,117 @@
+name: '&0Изменение прав: {playerName}'
+size: 45
+
+backItem:
+  name: '&6&lНазад'
+  material: SPECTRAL_ARROW
+  slot: 4
+
+status:
+  enable: '&aРазрешено'
+  disable: '&cЗапрещено'
+
+permItems:
+  1:
+    permission: 'SHOW_BALANCE'
+    item:
+      name: '&fПросматривать баланс {status}'
+      material: BOOK
+      slot: 10
+  2:
+    permission: 'ADD_BALANCE'
+    item:
+      name: '&fВкладывать деньги {status}'
+      material: BOOK
+      slot: 11
+  3:
+    permission: 'TAKE_BALANCE'
+    item:
+      name: '&fСнимать деньги {status}'
+      material: BOOK
+      slot: 12
+  4:
+    permission: 'INVITE'
+    item:
+      name: '&fПриглашать участников {status}'
+      material: BOOK
+      slot: 13
+  5:
+    permission: 'KICK'
+    item:
+      name: '&fВыгонять участников {status}'
+      material: BOOK
+      slot: 14
+  6:
+    permission: 'PVP'
+    item:
+      name: '&fПереключать режим пвп {status}'
+      material: BOOK
+      slot: 15
+  7:
+    permission: 'RENAME'
+    item:
+      name: '&fМенять название клана {status}'
+      material: BOOK
+      slot: 16
+  8:
+    permission: 'SETHOME'
+    item:
+      name: '&fДобавлять сетхом базы {status}'
+      material: BOOK
+      slot: 20
+  9:
+    permission: 'HOME'
+    item:
+      name: '&fТП на базу {status}'
+      material: BOOK
+      slot: 21
+  10:
+    permission: 'DELHOME'
+    item:
+      name: '&fУдалять сетхом базы {status}'
+      material: BOOK
+      slot: 22
+  11:
+    permission: 'STORAGE'
+    item:
+      name: '&fПользоваться хранилищем {status}'
+      material: BOOK
+      slot: 23
+  12:
+    permission: 'PERMS'
+    item:
+      name: '&fМенять права участникам {status}'
+      material: BOOK
+      slot: 24
+  13:
+    permission: 'PREFIX'
+    item:
+      name: '&fМенять префикс участникам {status}'
+      material: BOOK
+      slot: 31
+
+decor:
+  1:
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+      - 18
+      - 19
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44

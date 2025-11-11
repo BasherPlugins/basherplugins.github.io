@@ -1,0 +1,50 @@
+levels:
+  lvl1:
+    id: 1
+    exp: 0 # Нужное кол-во exp для этого уровня (на первом уровне оставь 0)
+    maxMembers: 3 # Максимальное количество участников
+    maxBank: 100000.0 # Максимальный банк
+    maxHomes: 0 # Максимальное количество домов
+    rename:
+      # Доступные цвета для переименования клана:
+      # (Примечание: для каждого уровня нужно прописывать полный список доступных цветов. Наследования нет!)
+      # BLACK - &0
+      # DARK_BLUE - &1
+      # DARK_GREEN - &2
+      # DARK_AQUA - &3
+      # DARK_RED - &4
+      # DARK_PURPLE - &5
+      # GOLD - &6
+      # GRAY - &7
+      # DARK_GRAY - &8
+      # BLUE - &9
+      # GREEN - &a
+      # AQUA - &b
+      # RED - &c
+      # LIGHT_PURPLE - &d
+      # YELLOW - &e
+      # WHITE - &f
+      # HEX - &#rrggbb
+      accessColors:
+        - 'WHITE'
+      maxChars: 0 # Максимальное количество символов для нового названия при переименовывании
+    maxStorage: 3 # Количество доступных слотов в хранилище
+    buyPrice: 0 # Цена покупки уровня. Используется вторая валюта
+    # Награда за достижение уровня. Описание для предмета в меню
+    rewardLore:
+      - '&fКу, привет'
+  lvl2:
+    id: 2
+    exp: 1500
+    maxMembers: 4
+    maxBank: 150000.0
+    maxHomes: 1
+    rename:
+      accessColors:
+        - 'WHITE'
+        - 'GRAY'
+      maxChars: 5
+    maxStorage: 5
+    buyPrice: 1000
+    rewardLore:
+      - '&fлол'
