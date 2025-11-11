@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasherClans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .description {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .file-item {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .file-header {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .file-header:hover {
+            background: #e0e0e0;
+        }
+        .file-content {
+            padding: 15px;
+            background: white;
+            display: none;
+        }
+        .file-content pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .folder {
+            margin-left: 20px;
+        }
+        .folder-name {
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+            color: #333;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+        .error {
+            color: red;
+            padding: 10px;
+            background: #ffe6e6;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="description">
+        <h1>Конфигурационные файлы проекта</h1>
+        <p>На этой странице отображаются все YAML конфигурационные файлы проекта. Вы можете просмотреть содержимое каждого файла, нажав на его название.</p>
+        <p>Файлы организованы по папкам для удобства навигации.</p>
+    </div>
+
+    <div id="files-container">
+        <div class="loading">Загрузка файлов...</div>
+    </div>
+
+    <script>
+        // Конфигурация
+        const REPO_OWNER = 'BasherPlugins'; // Замените на ваш username
+        const REPO_NAME = 'basherplugins.giithub.io'; // Замените на название репозитория
+        const BRANCH = 'main'; // Или 'master', в зависимости от вашей ветки
+
+        // Основная функция для загрузки и отображения файлов
+        async function loadConfigFiles() {
+            const container = document.getElementById('files-container');
+            
+            try {
+                // Получаем содержимое корневой папки configs
+                const files = await getRepoContents('configs');
+                displayFiles(files, container);
+            } catch (error) {
+                container.innerHTML = `<div class="error">Ошибка при загрузке файлов: ${error.message}</div>`;
+            }
+        }
+
+        // Функция для получения содержимого папки через GitHub API
+        async function getRepoContents(path = '') {
+            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=${BRANCH}`;
+            
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            return await response.json();
+        }
+
+        // Функция для получения содержимого файла
+        async function getFileContent(file) {
+            if (file.type === 'file') {
+                const response = await fetch(file.download_url);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch file: ${response.status}`);
+                }
+                return await response.text();
+            }
+            return null;
+        }
+
+        // Функция для отображения файлов и папок
+        async function displayFiles(files, container, level = 0) {
+            container.innerHTML = '';
+            
+            // Сортируем: сначала папки, потом файлы
+            const sortedFiles = files.sort((a, b) => {
+                if (a.type === b.type) {
+                    return a.name.localeCompare(b.name);
+                }
+                return a.type === 'dir' ? -1 : 1;
+            });
+
+            for (const item of sortedFiles) {
+                if (item.type === 'dir') {
+                    // Обрабатываем папку
+                    const folderDiv = document.createElement('div');
+                    folderDiv.className = 'folder';
+                    
+                    const folderHeader = document.createElement('div');
+                    folderHeader.className = 'folder-name';
+                    folderHeader.textContent = `📁 ${item.name}/`;
+                    folderDiv.appendChild(folderHeader);
+                    
+                    const folderContent = document.createElement('div');
+                    folderContent.className = 'folder-content';
+                    
+                    try {
+                        const subFiles = await getRepoContents(item.path);
+                        await displayFiles(subFiles, folderContent, level + 1);
+                    } catch (error) {
+                        folderContent.innerHTML = `<div class="error">Ошибка загрузки папки: ${error.message}</div>`;
+                    }
+                    
+                    folderDiv.appendChild(folderContent);
+                    container.appendChild(folderDiv);
+                    
+                } else if (item.type === 'file' && item.name.endsWith('.yml')) {
+                    // Обрабатываем YAML файл
+                    const fileItem = document.createElement('div');
+                    fileItem.className = 'file-item';
+                    
+                    const fileHeader = document.createElement('div');
+                    fileHeader.className = 'file-header';
+                    fileHeader.innerHTML = `
+                        <span>📄 ${item.name}</span>
+                        <span>▶</span>
+                    `;
+                    
+                    const fileContent = document.createElement('div');
+                    fileContent.className = 'file-content';
+                    fileContent.innerHTML = '<div class="loading">Загрузка содержимого...</div>';
+                    
+                    fileHeader.addEventListener('click', async () => {
+                        const isOpen = fileContent.style.display === 'block';
+                        fileContent.style.display = isOpen ? 'none' : 'block';
+                        fileHeader.querySelector('span:last-child').textContent = isOpen ? '▶' : '▼';
+                        
+                        // Загружаем содержимое файла при первом открытии
+                        if (!isOpen && fileContent.querySelector('pre') === null) {
+                            try {
+                                const content = await getFileContent(item);
+                                fileContent.innerHTML = `<pre>${escapeHtml(content)}</pre>`;
+                            } catch (error) {
+                                fileContent.innerHTML = `<div class="error">Ошибка загрузки файла: ${error.message}</div>`;
+                            }
+                        }
+                    });
+                    
+                    fileItem.appendChild(fileHeader);
+                    fileItem.appendChild(fileContent);
+                    container.appendChild(fileItem);
+                }
+            }
+        }
+
+        // Вспомогательная функция для экранирования HTML
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // Загружаем файлы при загрузке страницы
+        document.addEventListener('DOMContentLoaded', loadConfigFiles);
+    </script>
+</body>
+</html>
