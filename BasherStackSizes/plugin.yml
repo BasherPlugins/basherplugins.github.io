@@ -1,0 +1,9 @@
+name: 'BasherStackSizes'
+version: '1.0.0'
+main: ru.basher.stacksizes.StackSizesPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+softdepend: [ CMI , Essentials , MultiWorld ]
+commands:
+  basherstacksizes:

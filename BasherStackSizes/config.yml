@@ -1,0 +1,16 @@
+##################################################################
+#                        BasherStackSizes                        #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: t.me/aleks_basher
+#
+# Команды:
+#   /basherstacksizes - админ команды
+# Права:
+#   basherstacksizes.command.basherstacksizes - доступ к /basherstacksizes
+#
+# Настраиваемые ограничения размеров стаков предметов
+stackSizes:
+  POTION: 64
+

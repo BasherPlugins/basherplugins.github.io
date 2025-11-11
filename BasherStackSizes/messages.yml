@@ -1,0 +1,9 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherStackSizes'
+    - '/basherstacksizes reload'
+  reload:
+    - '&aКонфиги были перезагружены за {time}мс'
