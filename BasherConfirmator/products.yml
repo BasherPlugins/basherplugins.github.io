@@ -1,0 +1,14 @@
+products:
+  example_product:
+    economy: 'VAULT'
+    item: # Здесь не учитывается параметр slot
+      name: '&aКрутой меч'
+      lore:
+        - '&cОстрота мильон'
+      material: NETHERITE_SWORD
+      amount: 4
+    price: 1000.0
+    giveCommands:
+      - 'give {playerName} netherite_sword'
+    cancelCommands:
+      - 'dm open {playerName} sword_shop'

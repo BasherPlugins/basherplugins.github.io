@@ -1,0 +1,18 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+productNotFound:
+  - '&cПредмет не был найден'
+noMoney:
+  - '&cУ Вас недостаточно средств!'
+buySuccess:
+  - '&aУспешная покупка!'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherConfirmator'
+    - '/basherconfirmator reload'
+    - '/basherconfirmator open Товар Игрок'
+  reload:
+    - '&aКонфиги были перезагружены за {time}мс'

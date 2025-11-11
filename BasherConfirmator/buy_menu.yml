@@ -1,0 +1,52 @@
+name: '&4&lПодтверждение покупки'
+size: 27
+
+confirmItem:
+  name: '&aПодтвердить'
+  material: LIME_STAINED_GLASS_PANE
+  slots:
+    - 0
+    - 1
+    - 2
+    - 9
+    - 10
+    - 11
+    - 18
+    - 19
+    - 20
+
+cancelItem:
+  name: '&cОтмена'
+  material: RED_STAINED_GLASS_PANE
+  slots:
+    - 6
+    - 7
+    - 8
+    - 15
+    - 16
+    - 17
+    - 24
+    - 25
+    - 26
+
+productItem: # Является дочерним элементом по отношению к предмету из products.
+  name: '{name}'
+  lore:
+    - '{lore}'
+    - '&f==========='
+    - '&fЦена: &a{price} ТК'
+    - '&fБаланс: &a{balance} ТК'
+  slot: 13
+
+decor:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 3
+      - 4
+      - 5
+      - 12
+      - 14
+      - 21
+      - 22
+      - 23

@@ -1,0 +1,9 @@
+name: BasherConfirmator
+version: '1.3.0'
+main: ru.basher.confirmator.ConfirmatorPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ PlaceholderAPI ]
+commands:
+  basherconfirmator:
