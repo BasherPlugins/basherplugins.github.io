@@ -1,0 +1,12 @@
+wait1: 1500 #мс
+wait2: 4000 #мс
+spawn_delay: 250 #мс
+
+spawn_sound:
+  id: 'BLOCK_STONE_PLACE'
+  volume: 1.0
+  pitch: 1.0
+break_sound:
+  id: 'BLOCK_STONE_PLACE'
+  volume: 1.0
+  pitch: 1.0

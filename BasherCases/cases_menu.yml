@@ -1,0 +1,97 @@
+name: '&0Кейсы'
+size: 45
+
+open_sound:
+  id: 'BLOCK_CHEST_OPEN'
+  volume: 1.0
+  pitch: 1.0
+
+slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+
+empty:
+  name: '&cНет кейсов'
+  lore: {}
+  material: BARRIER
+  amount: 1
+  slot: 22
+
+next:
+  name: '&aСледующая страница'
+  lore: {}
+  material: EMERALD_BLOCK
+  amount: 1
+  slot: 41
+
+prev:
+  name: '&cПредыдущая страница'
+  lore: {}
+  material: BARRIER
+  amount: 1
+  slot: 39
+
+buttons:
+  1:
+    name: '&a[$] &eМагазин кейсов'
+    lore:
+      - '&fЗа &aТокены &fможно быстро'
+      - '&fи легко купить &eкейсы&f!'
+    material: ENDER_CHEST
+    amount: 1
+    slot: 40
+    #PLAYER:gm 1
+    #CONSOLE:gm 1 {player}
+    #SOUND:BLOCK_ANVIL_STEP;1.0;1.0
+    actions:
+      - 'PLAYER:cases'
+
+decor:
+  1:
+    name: ''
+    lore: {}
+    material: RED_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 41
+      - 42
+      - 43
+      - 44

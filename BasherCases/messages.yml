@@ -1,0 +1,26 @@
+no_perms:
+  - '&cИзвините, но у Вас нет прав'
+player_not_found:
+  - '&cИгрок не был найден'
+crate_not_found:
+  - '&cКейс с таким id не был найден'
+number_error:
+  - '&cЭто не число'
+no_money:
+  - '&cУ Вас недостаточно средств для покупки'
+buy_crate_success:
+  - '&aВы успешно купили кейс'
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lFMCases'
+    - '&f/fmcases give Ник Айди Количество'
+    - '&f/fmcases take Ник Айди Количество'
+  give_success:
+    - '&aВы успешно выдали кейсы'
+  take_success:
+    - '&cВы успешно забрали кейсы'
+win:
+  - '&r &r &r {case_name}'
+  - '&fВыигрыш: {prize}'
+select: '&aВыбери приз'
+miss: '&cТы пропустил выбор'

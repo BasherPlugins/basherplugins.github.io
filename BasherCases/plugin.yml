@@ -1,0 +1,11 @@
+name: BasherCases
+version: '1.1.0'
+main: ru.basher.cases.CasesPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+load: POSTWORLD
+depend: [ PlaceholderAPI ]
+softdepend: [ Multiverse-Core , MultiWorld , DecentHolograms ]
+commands:
+  bashercases:

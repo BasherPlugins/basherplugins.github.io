@@ -1,0 +1,13 @@
+circle:
+  radius: 3.0
+  particle: 'FLAME'
+  step: 3
+  up_y: 2.0
+wait1: 1500 #мс
+wait2: 4000 #мс
+spawn_delay: 200 #мс
+
+spawn_sound:
+  id: 'BLOCK_STONE_PLACE'
+  volume: 1.0
+  pitch: 1.0

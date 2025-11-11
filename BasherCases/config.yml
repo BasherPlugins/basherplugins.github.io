@@ -1,0 +1,33 @@
+##################################################################
+#                          BasherCases                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /bashercases - админ-команды
+# Права:
+#   bashercases.command.bashercases - доступ к /bashercases
+# Заполнители:
+#   %fmcases_keys_amount% - количество ключей у игрока
+db:
+  host: '' #127.0.0.1:3306
+  name: '' #dbName
+  user: '' #root
+  password: '' #qwerty123
+
+wait_select_prize_time: 10 #сек
+checker_delay: 120 #сек
+save_time: 72800 #сек
+
+hologram:
+  view_distance: 20
+  up_y: 1.0
+  lines:
+    - '&e⚝ &lКейсы &e⚝'
+    - '&eНажми&f, чтобы открыть!'
+    - '&aКлючей: {amount}'
+
+case_locs: #локации кейсов
+  - 'world;0;90;0'
