@@ -1,0 +1,41 @@
+##################################################################
+#                          BasherWinTop                          #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+#
+# Команды:
+#   /basherwintop - админ-команды
+#   /win - основная команда
+# Права:
+#   basherwintop.command.basherwintop - доступ к /basherwintop
+#   basherwintop.command.win - доступ к /win
+#
+withdrawEnable: true # Можно ли забирать деньги с баланса винтопа
+
+prizes:
+  prize1:
+    position: 1
+    actions:
+      - 'CONSOLE:p give {playerName} 60000'
+      - 'MESSAGE:ты крутой'
+      - 'BROADCAST:{playerName} крутой'
+      - 'CHAT:я крутой'
+      - 'COMMAND:gm 1'
+  prize2:
+    position: 2
+    actions:
+      - 'CONSOLE:p give {playerName} 50000'
+  prize3:
+    position: 3
+    actions:
+      - 'CONSOLE:p give {playerName} 40000'
+  prize4:
+    position: 4
+    actions:
+      - 'CONSOLE:p give {playerName} 30000'
+  prize5:
+    position: 5
+    actions:
+      - 'CONSOLE:p give {playerName} 20000'

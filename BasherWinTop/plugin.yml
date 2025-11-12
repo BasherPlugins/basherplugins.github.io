@@ -1,0 +1,10 @@
+name: 'BasherWinTop'
+version: '1.2.0'
+main: ru.basher.wintop.WinTopPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+depend: [ Vault ]
+commands:
+  basherwintop:
+  win:

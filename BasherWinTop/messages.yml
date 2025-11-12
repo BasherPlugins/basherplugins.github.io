@@ -1,0 +1,91 @@
+noPerms:
+  - '&#7D00FF[$] &#ff6600Извините, но у Вас нет прав для доступа к этой команде'
+playerNotFound:
+  - '&#7D00FF[$] &#ff6600Игрок не был найден'
+numberFormatError:
+  - '&#7D00FF[$] &#ff6600Ошибка числа'
+noMoney:
+  - '&#7D00FF[$] &#ff6600У Вас не хватает денег для пополнения!'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &#ff6600&lBasherWinTop'
+    - '&#FFFFE6/basherwintop reload'
+    - '&#FFFFE6/basherwintop balance Ник &8-&#ffff00 посмотреть баланс игрока'
+    - '&#FFFFE6/basherwintop give Ник Количество &8-&#ffff00 выдать игроку деньги'
+    - '&#FFFFE6/basherwintop take Ник Количество &8-&#ffff00 забрать у игрока деньги'
+    - '&#FFFFE6/basherwintop set Ник Количество &8-&#ffff00 установить игроку деньги'
+    - '&#FFFFE6/basherwintop givePrizes &8-&#ffff00 выдать победителям призы'
+  reloadSuccess:
+    - '&#00ff00Плагин перезагружен за {time} мс'
+  balanceSuccess:
+    - '&#00ff00Баланс игрока&8: &#ffff00{money}$'
+  giveSuccess:
+    - '&#00ff00Вы выдали игроку {targetName} {money}$'
+  takeSuccess:
+    - '&#00ff00Вы забрали у игрока {targetName} {money}$'
+  setSuccess:
+    - '&#00ff00Вы установили игроку {targetName} {money}$'
+  givePrizesSuccess:
+    - '&#00ff00Вы выдали победителям их призы'
+
+win:
+  usage:
+    - '&#ff6600Справка по командам WIN-Топа'
+    - '&#FFFFE6> &#ff6600/win help &#FFFFE6- Получить справку помощи'
+    - '&#FFFFE6> &#ff6600/win top &#FFFFE6- Посмотреть ТОП по игрокам'
+    - '&#FFFFE6> &#ff6600/win money &#FFFFE6- Посмотреть свой баланс'
+    - '&#FFFFE6> &#ff6600/win invest сумма &#FFFFE6- Вложить деньги'
+    - '&#FFFFE6> &#ff6600/win withdraw сумма &#FFFFE6- Снять деньги'
+    - '&#FFFFE6> &#ff6600/win info &#FFFFE6- Посмотреть условия и инфу'
+    - '&#FFFFE6> &#ff6600/win rules &#FFFFE6- Правила конкурса'
+    - '&#FFFFE6> &#ff6600/win prize &#FFFFE6- Посмотреть призы за ТОП'
+  topSuccess:
+    - '&r '
+    - '&#7D00FF[$] &#FFFFE6ТОП по WIN &#FF5B5BБалансам&#FFFFE6:'
+    - '&r '
+    - '&#00ff00① &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#ffff00② &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#ff6600③ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B④ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑤ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑥ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑦ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑧ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑨ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&#FF5B5B⑩ &#FFFFE6{playerName}: &#ff6600${money}'
+    - '&r '
+  moneySuccess:
+    - '&#7D00FF[$] &#FFFFE6Ваш баланс WIN Топа: &#ff6600${money}'
+  investSuccess:
+    - '&#7D00FF[$] &#ff6600Вы успешно пополнили баланс WIN Топа на ${money}!'
+  infoSuccess:
+    - '&#FF5B5BИНФО: &#ff6600Конкурс по ТОП Баланса игроков.'
+    - '&#FF5B5BУсловия:'
+    - '&#FF5B5B> &#FFFFE6Никто не знает ТОП до конца конкурса;'
+    - '&#FF5B5B> &#FFFFE6Снять вложенные средства невозможно;'
+    - '&#FF5B5B> &#FFFFE6Приз не может делиться на тиммейтов;'
+    - '&#FF5B5B> &#FFFFE6Полные правила в группе ВК;'
+    - '&#FF5B5BКонец конкурса: &#ff6600неизвестно'
+  rulesSuccess:
+    - '&#FF5B5B> &#FFFFE6Принять участие можно лишь на одном режиме;'
+    - '&#FF5B5B> &#FFFFE6Нельзя принимать участие с мультиаккаунтов;'
+    - '&#FF5B5B> &#FFFFE6Нельзя как либо пытаться обойти систему;'
+    - '&#FF5B5B> &#FFFFE6Если за вайп вы/ваш мультиаккаунт был забанен по серьезной причине - дисквалификация;'
+    - '&#FF5B5B> &#FFFFE6Если ваши тиммейты были забанены по серьезной причине - дисквалификация;'
+  prizeSuccess:
+    - ''
+    - '&#7D00FF[$] &#FFFFE6WIN-Топ призы &#FF5B5BАнархия'
+    - ''
+    - '&#FF5B5B [1]&#FFFFE6 Место:&#FF5B5B 60,000 ТК'
+    - '&#FF5B5B [2]&#FFFFE6 Место:&#FF5B5B 50,000 ТК'
+    - '&#FF5B5B [3]&#FFFFE6 Место:&#FF5B5B 40,000 ТК'
+    - '&#FF5B5B [4]&#FFFFE6 Место:&#FF5B5B 30,000 ТК'
+    - '&#FF5B5B [5]&#FFFFE6 Место:&#FF5B5B 20,000 ТК'
+    - ''
+  withdrawNoMoney:
+    - '&cНа балансе ВинТопа нет столько денег'
+  withdrawBlocked:
+    - '&6Сейчас нельзя снимать деньги'
+  withdrawSuccess:
+    - '&aВы сняли {money}$ с баланса ВинТопа'
