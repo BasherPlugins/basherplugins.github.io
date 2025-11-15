@@ -1,0 +1,39 @@
+##################################################################
+#                       BasherDynamicBuyer                       #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+# 
+# Команды:
+#   /basherdynamicbuyer - админ-команды
+# права:
+#   basherdynamicbuyer.command.basherdynamicbuyer - доступ к /basherdynamicbuyer
+#
+# Все секции, которые оканчиваются на item(или полностью состоят из этого слова)
+# И подразумевают под собой настройку предмета имеют следующие характеристики:
+# (Уточнение: ЛЮБАЯ секция может быть удалена из характеристик)
+#   item:
+#     name: '&eExampleName'
+#     lore:
+#       - '&7Example lore'
+#     material: 'STONE' # Любой материал или 'base64-asdaf...'
+#     color: '255;255;255' # Формат Red;Green;Blue. Все числа 0-255. Параметр работает для TIPPED_ARROW, LEATHER брони и POTION(+его производных)
+#     amount: 1
+#     enchants:
+#       - 'ARROW_DAMAGE;1' # Зачарование;Уровень
+#     itemFlags:
+#       - 'HIDE_ENCHANTS'
+#     attributes:
+#       - 'GENERIC_MAX_HEALTH;20'
+#       - 'GENERIC_ATTACK_DAMAGE;-3'
+#       - 'GENERIC_LUCK;20%'
+#       - 'GENERIC_ATTACK_SPEED;-20%'
+#     customModelData: 0
+#     damage: 0 # Урон предмета. Устанавливается как максимальная_прочность - damage = текущая_прочность
+#     slot: 1 # Важный параметр для настроек предметов в меню
+#     slots: # Аналог параметра slot, но для нескольких значений
+#       - 1
+#
+updatePeriod: 3600 # Период между обновлениями предметов в секундах
+needPlayTimeForAccess: 300 # Время игры у игрока, которое требуется для доступа к скупщику в секундах

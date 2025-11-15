@@ -1,0 +1,21 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+noResources:
+  - '&cНедостаточно ресурсов'
+sellSuccess:
+  - '&aВы продали {name} {amount} шт. за ${price}'
+needPlayTime:
+  - '&cВам нужно отыграть ещё {time}'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherDynamicBuyer'
+    - '&f/basherdynamicbuyer reload'
+    - '&f/basherdynamicbuyer forceUpdate'
+    - '&f/basherdynamicbuyer open Игрок'
+  reloadSuccess:
+    - '&aПлагин перезагружен за {time} мс'
+  forceUpdateSuccess:
+    - '&eПродукты были принудительно обновлены'

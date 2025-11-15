@@ -1,0 +1,63 @@
+name: '&0Динамический скупщик'
+size: 45
+
+slots:
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+
+backItem:
+  name: '&c[<=] &6Главное меню'
+  lore:
+    - '&eНажмите&f, чтобы перейти'
+    - '&fв главное меню скупщика'
+  material: SPECTRAL_ARROW
+  slot: 2
+  commands:
+    - 'buyer'
+
+updateItem:
+  name: '&6Обновление предметов через {time}'
+  material: EXPERIENCE_BOTTLE
+  slot: 4
+
+selector:
+  active: '&r &a>> &7Продать &a{amount}'
+  notActive: '&r &8>> &7Продать &e{amount}'
+
+buyItem: # Здесь настройки не приоритетные. Важнее заполнение из products.yml
+  name: '{name}'
+  lore:
+    - '&fПродано: {sold}/{maxSales}'
+    - '&6ЛКМ&f, чтобы продать'
+    - '&fЦена за &e1 шт&f: &7&m{oldPrice}&6{price}$'
+    - '&r '
+    - '&6ПКМ&f, чтобы настроить'
+    - '{selector}'
+
+buyCooldownItem: # Здесь настройки не приоритетные. Важнее заполнение из products.yml
+  name: '{name}'
+  lore:
+    - '&fЦена за &e1 шт&f: &7&m{oldPrice}&6{price}$'
+    - '&r '
+    - '&cПродажа предмета заморожена.'
+    - '&cРазморозится через &f{time}'
+
+decor:
+  1:
+    material: RED_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 19
+      - 25
+      - 26
