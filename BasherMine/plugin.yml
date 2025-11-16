@@ -1,0 +1,11 @@
+name: BasherMine
+version: '2.0.0'
+main: ru.basher.mine.MinePlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+load: POSTWORLD
+softdepend: [ MultiWorld ]
+depend: [ DecentHolograms ]
+commands:
+  bashermine:

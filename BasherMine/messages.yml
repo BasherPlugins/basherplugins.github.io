@@ -1,0 +1,16 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+mineNotFound:
+  - '&cШахта с таким ID не была найдена'
+mineTypeNotFound:
+  - '&cТип шахты не был найден'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherMine'
+    - '&f/bashermine reload'
+    - '&f/bashermine regen Шахта [Тип]'
+  reloadSuccess:
+    - '&aПлагин был перезагружен за &f{time}мс'
+  regenSuccess:
+    - '&aШахта была обновлена'

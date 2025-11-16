@@ -1,0 +1,35 @@
+updatePeriod: 120
+
+world: 'world'
+
+minLocation:
+  x: 1
+  y: 1
+  z: 1
+
+maxLocation:
+  x: 2
+  y: 2
+  z: 2
+
+teleportLocation:
+  x: 3.0
+  y: 3.0
+  z: 3.0
+  yaw: 1.0
+  pitch: 1.0
+
+hologramLocation:
+    x: 1.1
+    y: 1.1
+    z: 1.1
+
+types:
+  standard:
+    displayName: '&eСтандартная'
+    rate: 2 # Шанс выпадения шахты
+    # Список блоков в шахте. Материал: шанс
+    blocks:
+      STONE: 7
+      IRON_ORE: 12
+      GOLD_ORE: 13
