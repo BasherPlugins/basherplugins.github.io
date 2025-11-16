@@ -1,0 +1,15 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherXray'
+    - '&f/basherxray reload'
+  reloadSuccess:
+    - '&aПлагин был перезагружен за &f{time}мс'
+
+xray:
+  cooldown:
+    - '&cБудет доступно через {time}'
+  success:
+    - '&aXray режим включен на {time}'

@@ -1,0 +1,9 @@
+name: BasherXray
+version: '1.0.0'
+main: ru.basher.xray.XrayPlugin
+api-version: 1.16
+authors: [ Aleks_Basher ]
+website: 'https://t.me/aleks_basher'
+commands:
+  basherxray:
+  xray:

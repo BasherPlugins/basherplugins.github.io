@@ -1,0 +1,36 @@
+##################################################################
+#                           BasherXray                           #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+#
+# Команды:
+#   /basherxray - админ-команды
+#   /xray - режим xray
+# Права:
+#   basherxray.command.basherxray - доступ к /basherxray
+#   basherxray.command.xray - доступ к /xray
+#
+xray:
+  radius: 10
+  blocks:
+    - 'COAL_ORE'
+    - 'GOLD_ORE'
+    - 'DIAMOND_ORE'
+    - 'IRON_ORE'
+    - 'EMERALD_ORE'
+    - 'LAPIS_ORE'
+    - 'REDSTONE_ORE'
+
+groups:
+  1:
+    priority: 0
+    permission: 'group.admin'
+    activeTime: 10 # Количество секунд активного времени xray режима
+    cooldown: 250 # Задержка между использованиями xray режима
+  2:
+    priority: 1
+    permission: 'group.default'
+    activeTime: 5
+    cooldown: 500
