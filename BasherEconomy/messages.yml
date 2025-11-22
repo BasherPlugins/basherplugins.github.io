@@ -1,0 +1,95 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+playerNotFound:
+  - '&cИгрок не был найден'
+numberFormatError:
+  - '&cОшибка ввода числа'
+noMoney:
+  - '&cУ Вас недостаточно денег'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lBasherEconomy'
+    - '&f/bashereconomy reload'
+  reloadSuccess:
+    - '&aПлагин был перезагружен за &f{time}мс'
+
+balance:
+  success:
+    - '&eБаланс: &f{money}&a$'
+  otherSuccess:
+    - '&eБаланс &6{playerName}&e: &f{money}&a$'
+
+balancetop:
+  success:
+    - '&6&lТоп богачей'
+    - '&e1. &f{playerName}&e - &f{money}&a$'
+    - '&e2. &f{playerName}&e - &f{money}&a$'
+    - '&e3. &f{playerName}&e - &f{money}&a$'
+    - '&e4. &f{playerName}&e - &f{money}&a$'
+    - '&e5. &f{playerName}&e - &f{money}&a$'
+    - '&e6. &f{playerName}&e - &f{money}&a$'
+    - '&e7. &f{playerName}&e - &f{money}&a$'
+    - '&e8. &f{playerName}&e - &f{money}&a$'
+    - '&e9. &f{playerName}&e - &f{money}&a$'
+    - '&e10. &f{playerName}&e - &f{money}&a$'
+
+eco:
+  usage:
+    - '&r &r &r &r &r &6&lУправление экономикой сервера'
+    - '&e/eco give Игрок Сумма &8- &fВыдаёт указанному игроку указанную сумму денег'
+    - '&e/eco take Игрок Сумма &8- &fЗабирает указанную сумму денег у указанного игрока'
+    - '&e/eco set Игрок Сумма &8- &fУстанавливает баланс указанного игрока на указанную сумму'
+    - '&e/eco reset Игрок &8- &fСбрасывает баланс указанного игрока на начальный баланс сервера'
+  usageGive:
+    - '&eИспользовать&8: &f/eco give Игрок Сумма'
+  usageTake:
+    - '&eИспользовать&8: &f/eco take Игрок Сумма'
+  usageSet:
+    - '&eИспользовать&8: &f/eco set Игрок Сумма'
+  usageReset:
+    - '&eИспользовать&8: &f/eco reset Игрок'
+  giveSuccess:
+    - '&eВы выдали игроку &f{playerName}&e: &f{money}&a$'
+  giveTargetSuccess:
+    - '&eВам было выдано &f{money}&a$'
+  takeSuccess:
+    - '&eВы забрали у игрока &f{playerName}&e: &f{money}&a$'
+  takeTargetSuccess:
+    - '&eУ Вас было списано &f{money}&a$'
+  setSuccess:
+    - '&eВы установили игроку &f{playerName}&e: &f{money}&a$'
+  setTargetSuccess:
+    - '&eВам было установлено &f{money}&a$'
+  resetSuccess:
+    - '&eВы сбросили игроку &f{playerName}&e все деньги'
+  resetTargetSuccess:
+    - '&eВам сбросили все деньги'
+
+pay:
+  usage:
+    - '&eИспользовать&8: &f/pay Ник Сумма'
+  disabled:
+    - '&cФункция платежей выключена. Включите её с помощью &f/paytoggle'
+  targetDisabled:
+    - '&cУ игрока выключена функция платежей'
+  confirm:
+    - '&eВведите ещё раз команду, чтобы подтвердить перевод'
+  prevent:
+    - '&cВы не можете этого сделать'
+  success:
+    - '&eВы перевели игроку &f{playerName} &f{money}&a$'
+  targetSuccess:
+    - '&eВам перевёл &f{playerName} &f{money}&a$'
+
+paytoggle:
+  enable:
+    - '&aТеперь Вы принимаете платежи'
+  disable:
+    - '&cТеперь Вы не принимаете платежи'
+
+payconfirmtoggle:
+  enable:
+    - '&aТеперь Вам будет предлагаться подтверждение платежей'
+  disable:
+    - '&cВы больше не будете получать запросы на подтверждение платежей'

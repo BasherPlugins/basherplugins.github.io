@@ -1,0 +1,35 @@
+##################################################################
+#                         BasherEconomy                          #
+##################################################################
+#
+# Автор: Aleks_Basher
+# Telegram: https://t.me/aleks_basher
+#
+# Команды:
+#   /bashereconomy - админ-команды
+#   /balance - проверить баланс
+#   /balancetop - топ по балансу
+#   /eco - управление экономикой сервера
+#   /pay - перевод денег
+#   /paytoggle - переключение режима принятия платежей
+#   /payconfirmtoggle - переключение подтверждения платежей
+# Права:
+#   bashereconomy.command.bashereconomy - доступ к /bashereconomy
+#   bashereconomy.command.balance - доступ к /balance
+#   bashereconomy.command.balance.other - доступ к /balance [Игрок]
+#   bashereconomy.command.balancetop - доступ к /balancetop
+#   bashereconomy.command.eco - доступ к /eco
+#   bashereconomy.command.pay - доступ к /pay
+#   bashereconomy.command.paytoggle - доступ к /paytoggle
+#   bashereconomy.command.payconfirmtoggle - доступ к /payconfirmtoggle
+#
+mysql:
+  host: ''
+  name: ''
+  user: ''
+  password: ''
+
+balTop:
+  limit: 10 # Лимит загрузки для топа по балансу
+  updatePeriod: 300 # Период обновления списка топа в секундах
+
